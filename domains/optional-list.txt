@@ -197,11 +197,11 @@ livepassdl.conviva.com
 
 ##Google (Maps, Youtube, etc)
 ##Google Maps and other Google services
-clients4.google.com 
+clients4.google.com
 clients2.google.com
 
 ##YouTube history
-s.youtube.com 
+s.youtube.com
 video-stats.l.google.com
 
 ##Google Play
@@ -362,7 +362,7 @@ themoviedb.com
 # services.sonarr.tv
 # skyhook.sonarr.tv
 # download.sonarr.tv
-# apt.sonarr.tv 
+# apt.sonarr.tv
 # forums.sonarr.tv
 
 
@@ -460,7 +460,7 @@ wdcp.microsoft.com
 ##(from https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-network-connections-windows-defender-antivirus):
 wdcpalt.microsoft.com
 ##(from https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1803-non-enterprise-editions 1 + https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints):
-tsfe.trafficshaping.dsp.mp.microsoft.com 2
+tsfe.trafficshaping.dsp.mp.microsoft.com
 
 ##=======================================================================================
 ##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW
