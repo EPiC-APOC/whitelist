@@ -37,7 +37,7 @@ This file contain domains that are safe to whitelist i.e it does not contain any
 ***referral-sites.txt***      
 People who use services like Slickdeals and Fatwallet needs a few sites (most of  them are ads) to be whitelisted to work properly. This file contains some analytics and ad serving sites, if you don't know what these services are stay away from this list.
            
-***optional-list.txt*** ** [** EPiC FORK **]**       
+***optional-list.txt***  **[**EPiC FORK**]**       
 This file contain domains that are needed to be whitelisted depending on the service you use. It may contain some tracking site but sometimes it's necessary to add bad domains to make a few services to work.     
           
 ***
@@ -60,10 +60,10 @@ sudo chmod +x referral.sh
 sudo ./referral.sh
 ```
 
-**Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `whitelist/scripts` and run it again `sudo ./referral.sh`**
+**Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `whitelist/scripts` and run it again ie. `sudo ./optional-list.sh`**
         
 ***For optional-list.txt***     
-You can add it manually depending upon the service you use.  ** [** EPiC FORK **]**
+You can add it manually depending upon the service you use.   **[**EPiC FORK**]**
 
 ```
 git clone https://github.com/EPiC-APOC/whitelist.git
