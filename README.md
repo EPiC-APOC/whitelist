@@ -3,10 +3,10 @@
 </p>
        
        
-## Commonly white listed domains *(forked)* for Pi-Hole.     
+## Commonly white listed domains *(forked)* for Pi-Hole     
           
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
-Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
+Add these domains to your Pi-Hole setup by running a script or manually and make your setup **"trouble-free!"**
                 
 Want to report a new domain? Want to report exsisting one? Feel free to file an EPiC <a href="https://github.com/EPiC-APOC/whitelist/issues">issue</a>.
          
@@ -19,7 +19,7 @@ Want to report a new domain? Want to report exsisting one? Feel free to file an 
          
 ### Main features:
        
-- New domains are added frequently. (see: **anudeepND** for: 'referral-sites.txt' & 'whitelist.txt')
+- New domains are added frequently (see: **anudeepND** for: 'referral-sites.txt' & 'whitelist.txt').
 - Comes with a shell script i.e you can add all domains automatically at an instant.
 - Domains are categorised and are included in 3 different files.
 - If you are a beginner to Pi-Hole, adding these sites resolves many problems. 
@@ -30,10 +30,10 @@ Want to report a new domain? Want to report exsisting one? Feel free to file an 
        
 The repository has 3 different files containing different domains.      
        
-***whitelist.txt***  (credits to: Anudeep ND)       
+***whitelist.txt***  (all credits to: Anudeep ND)       
 This file contain domains that are safe to whitelist i.e it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on...
         
-***referral-sites.txt***  (credits to: Anudeep ND)       
+***referral-sites.txt***  (all credits to: Anudeep ND)       
 People who use services like Slickdeals and Fatwallet needs a few sites (most of  them are ads) to be whitelisted to work properly. This file contains some analytics and ad serving sites, if you don't know what these services are stay away from this list.
            
 ***optional-list.txt***  **[**EPiC FORK**]**       
@@ -43,7 +43,7 @@ This file contain domains that are needed to be whitelisted depending on the ser
            
 ### Installation and Usage
          
-***For whitelist.txt***     
+***For whitelist.txt***         [Anudeep ND]    
 ```
 git clone https://github.com/anudeepND/whitelist.git
 cd whitelist/scripts
@@ -51,7 +51,7 @@ sudo chmod +x whitelist.sh
 sudo ./whitelist.sh
 ```
 
-***For referral-sites.txt***          
+***For referral-sites.txt***    [Anudeep ND]    
 ```
 git clone https://github.com/anudeepND/whitelist.git
 cd whitelist/scripts
@@ -61,8 +61,8 @@ sudo ./referral.sh
 
 **Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `whitelist/scripts` and run it again ie. `sudo ./optional-list.sh`**
         
-***For optional-list.txt***     
-You can add it manually depending upon the service you use.   **[**EPiC FORK**]**
+***For optional-list.txt***     **[**EPiC FORK**]** 
+You can add it manually depending upon the service you use.     
 
 ```
 git clone https://github.com/EPiC-APOC/whitelist.git
