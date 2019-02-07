@@ -8,7 +8,7 @@
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
                 
-Want to report a new domain? Want to report exsisting one? Feel free to file an <a href="https://github.com/EPiC-APOC/whitelist/issues">issue</a>.
+Want to report a new domain? Want to report exsisting one? Feel free to file an EPiC <a href="https://github.com/EPiC-APOC/whitelist/issues">issue</a>.
          
          
  <p align="center">
@@ -19,8 +19,7 @@ Want to report a new domain? Want to report exsisting one? Feel free to file an 
          
 ### Main features:
        
-- The entire repo is curated.
-- New domains are added frequently.
+- New domains are added frequently. (see: **anudeepND** for: 'referral-sites.txt' & 'whitelist.txt')
 - Comes with a shell script i.e you can add all domains automatically at an instant.
 - Domains are categorised and are included in 3 different files.
 - If you are a beginner to Pi-Hole, adding these sites resolves many problems. 
@@ -70,6 +69,7 @@ git clone https://github.com/EPiC-APOC/whitelist.git
 cd whitelist/scripts
 sudo chmod +x optional-list.sh
 sudo ./optional-list.sh
+(you can use 'whitelist.sh' & 'referral.sh' also for frequent curated updates by Anudeep ND)
 ```
           
 ***     
@@ -125,4 +125,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+    
+***
+    
+### **EPiC** Licence
+```
+/*
+ * ----------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" :
+ * As long as you retain this notice,
+ * you can do whatever you want with this stuff. If we meet some day,
+ * and you think this stuff is worth it, you can buy me a beer in return.
+ * ----------------------------------------------------------------------
+ */
 ```
