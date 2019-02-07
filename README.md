@@ -3,7 +3,7 @@
 </p>
        
        
-## Commonly white listed domains for Pi-Hole.     
+## Commonly *forked* white listed domains for Pi-Hole.     
           
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
@@ -31,10 +31,10 @@ Want to report a new domain? Want to report exsisting one? Feel free to file an 
        
 The repository has 3 different files containing different domains.      
        
-***whitelist.txt***       
+***whitelist.txt***  (credits to: Anudeep ND)       
 This file contain domains that are safe to whitelist i.e it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on...
         
-***referral-sites.txt***      
+***referral-sites.txt***  (credits to: Anudeep ND)       
 People who use services like Slickdeals and Fatwallet needs a few sites (most of  them are ads) to be whitelisted to work properly. This file contains some analytics and ad serving sites, if you don't know what these services are stay away from this list.
            
 ***optional-list.txt***  **[**EPiC FORK**]**       
@@ -74,7 +74,7 @@ sudo ./optional-list.sh
           
 ***     
                
-### How do I determine an ad domain?
+### How do I determine an ad domain?  (credits to: Anudeep ND)
          
 ***DNSthingy Assistant***
          
