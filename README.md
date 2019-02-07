@@ -19,7 +19,7 @@ Want to report a new domain? Want to report exsisting one? Feel free to file an 
          
 ### Main features:
        
-- New domains are added frequently (see: **anudeepND** for: 'referral-sites.txt' & 'whitelist.txt').
+- New domains are added frequently (see: **anudeepND** for: *'referral-sites.txt'* **&** *'whitelist.txt'*).
 - Comes with a shell script i.e you can add all domains automatically at an instant.
 - Domains are categorised and are included in 3 different files.
 - If you are a beginner to Pi-Hole, adding these sites resolves many problems. 
@@ -61,7 +61,7 @@ sudo ./referral.sh
 
 **Note: You don't have to clone the repo every time you need to update whitelist file. Navigate to `whitelist/scripts` and run it again ie. `sudo ./optional-list.sh`**
         
-***For optional-list.txt***     **[**EPiC FORK**]** 
+***For optional-list.txt***     **[**EPiC FORK**]**     
 You can add it manually depending upon the service you use.     
 
 ```
