@@ -52,6 +52,5 @@ echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"
 
 
-echo -e " \e[1m  Star me on GitHub, https://github.com/anudeepND/whitelist \e[0m"
 echo -e " \e[1m  Happy AdBlocking :)\e[0m"
 echo -e "\n\n"
