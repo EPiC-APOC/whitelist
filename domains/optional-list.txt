@@ -435,16 +435,26 @@ android.clients.google.com
 # appspot-preview.l.google.com
 
 ##Captive-portal tests [*FOLLOW*]
-##These domains are checked by the operating systems when connecting via wifi, and if they don’t get the response they expect, they may try to open a wifi login page or similar as they believe they are located behind a captive portal.
+##These domains are checked by the operating systems when connecting via wifi, and if they don’t get the response they expect,
+# they may try to open a wifi login page or similar as they believe they are located behind a captive portal.
+#
 ##Android/Chrome
 connectivitycheck.android.com
 android.clients.google.com
 clients3.google.com
 connectivitycheck.gstatic.com
+#
+##(Mozilla)FireFox
+##When launching Firefox, it will ping to the domain detectportal.firefox.com to detect if Firefox is in a captive portal,
+## such as public wifi or a wifi network where you need to agree before getting access to the internet.
+## nfo: https://www.reddit.com/r/privacytoolsIO/comments/6j22nd/disable_firefox_detect_captive_portal_in/
+detectportal.firefox.com
+#
 ##Windows/Microsoft [I_DONT_USE_IT] [*FOLLOW*]
 msftncsi.com
 www.msftncsi.com
 ipv6.msftncsi.com
+#
 ##iOS/Apple [I_DONT_USE_IT] [*ON_HOLD*]
 ##(note that this does not cover all domains used older iOS versions)
 # captive.apple.com
