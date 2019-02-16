@@ -65,6 +65,11 @@ graph.facebook.com
 # 6-edge-chat.facebook.com
 # edge-chat.facebook.com
 
+##Social fixes (ie. Instagram, Twitter, etc.) --mostly needed to allow redirects for instance...
+#graph.facebook.com [*DUPlicateS*]
+graph.instagram.com
+analytics.twitter.com
+
 ##Fix - Images not loading on www.thecut.com [I_DONT_USE_IT]
 # pixel.nymag.com
 
@@ -307,7 +312,7 @@ apresolve.spotify.com
 # scontent-lhr3-1.xx.fbcdn.net
 # scontent.xx.fbcdn.net
 # scontent.fgdl5-1.fna.fbcdn.net
-graph.facebook.com
+# graph.facebook.com
 # connect.facebook.com
 # cdn.fbsbx.com
 # api.facebook.com
