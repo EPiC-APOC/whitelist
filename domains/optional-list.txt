@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------
 # EPiC *fork* -4- optional-list.txt (+optional-list.sh) usage only !!
 # -------------------------------------------------------------------
-# fork(ed) status: 20190129
+# fork(ed) status: 20190129 | recent update(s): 20190216
 # -------------------------------------------------------------------
 
 ##Adult Swim Videos on Amazon Firestick [I_DONT_USE_IT]
@@ -32,7 +32,7 @@
 # directvapplications.hb.omtrdc.net
 # s.zkcdn.net
 
-##Facebook
+##Facebook [*FOLLOW*]
 ##probably only 'graph.facebook.com' is needed (well, at least a lot does NOT work if you block this one)
 # creative.ak.fbcdn.net
 # external-lhr0-1.xx.fbcdn.net
@@ -196,10 +196,10 @@ www.ow.ly
 ##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones
 ##================================================================
 
-##Google (Maps, Youtube, etc)
+##Google (Maps, Youtube, etc) [*ON_HOLD*]
 ##Google Maps and other Google services
-clients4.google.com
-clients2.google.com
+# clients4.google.com
+# clients2.google.com
 
 ##YouTube history
 s.youtube.com
@@ -213,12 +213,12 @@ android.clients.google.com
 ##Windows uses this to verify connectivity to Internet
 www.msftncsi.com
 
-##Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com
-outlook.office365.com
-products.office.com
-c.s-microsoft.com
-i.s-microsoft.com
-login.live.com
+##Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com [*ON_HOLD*]
+# outlook.office365.com
+# products.office.com
+# c.s-microsoft.com
+# i.s-microsoft.com
+# login.live.com
 
 ##Backup bitlocker recovery key to Microsoft account [*FOLLOW*]
 g.live.com
@@ -355,7 +355,7 @@ graph.facebook.com
 # o2.sg0.plex.tv
 # dashboard.plex.tv
 
-##Domains used by/FOR Plex [*AND_OTHERS*] [KODi]
+##Domains used by/FOR Plex [*AND_OTHERS*] [*KODi*]
 gravatar.com
 thetvdb.com
 themoviedb.com
@@ -436,16 +436,16 @@ connectivitycheck.android.com
 android.clients.google.com
 clients3.google.com
 connectivitycheck.gstatic.com
-##Windows/Microsoft [I_DONT_USE_IT] [*ON_HOLD*]
-# msftncsi.com
-# www.msftncsi.com
-# ipv6.msftncsi.com
+##Windows/Microsoft [I_DONT_USE_IT] [*FOLLOW*]
+msftncsi.com
+www.msftncsi.com
+ipv6.msftncsi.com
 ##iOS/Apple [I_DONT_USE_IT] [*ON_HOLD*]
 ##(note that this does not cover all domains used older iOS versions)
 # captive.apple.com
 # gsp1.apple.com
 # www.apple.com
-www.appleiphonecell.com
+# www.appleiphonecell.com
 
 ##Grand Theft Auto V Online PC [*DUPlicateS*] [I_DONT_USE_IT]
 ##Since March blocking Rockstar telemetry seems to crash GTAOnline.
