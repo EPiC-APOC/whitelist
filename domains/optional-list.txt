@@ -174,12 +174,24 @@ ota-downloads.nvidia.com
 
 ##URL shorteners
 adf.ly
-www.adf.ly
+bit.do
 bit.ly
-www.bit.ly
+BL.ink
+Branch.io
+Buff.ly
+clk.im
+Deck.ly
+fur.ly
 goo.gl
+is.gd
+moourl.com
+polr.me
+Su.pr
+t2m.io
+tinyurl.com
 ow.ly
-www.ow.ly
+yourls.org
+zpr.io
 
 ##Videos not playing on  arstechnica/wired/vogue/newyorker [I_DONT_USE_IT]
 # Note: ads before videos may appear after whitelisting this domain
