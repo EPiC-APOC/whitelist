@@ -201,10 +201,20 @@ www.ow.ly
 ##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones
 ##================================================================
 
-##Google (Maps, Youtube, etc) [*ON_HOLD*]
+##Google (Maps, Youtube, etc) [*ON_HOLD*] --MIGHT ALSO BE USED WITH CHROMECAST
 ##Google Maps and other Google services
 # clients4.google.com
 # clients2.google.com
+
+##Chromecast (CAST with Google Chrome)
+#clients1.google.com [*NEW*]
+#clients2.google.com [*NOPE*]
+#clients3.google.com [*DUPlicateS*]
+#clients4.google.com [*NOPE*]
+#PROBABLY NEEDED ???
+#redirector.gvt1.com [*PROBABLY]
+#clients5.google.com [UKNOWN --SEE: https://github.com/anudeepND/whitelist/blob/master/domains/whitelist.txt]
+#clients6.google.com [UKNOWN --SEE: https://github.com/anudeepND/whitelist/blob/master/domains/whitelist.txt]
 
 ##YouTube history
 s.youtube.com
