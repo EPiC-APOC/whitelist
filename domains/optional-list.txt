@@ -307,9 +307,10 @@ g.live.com
 # ssl.google-analytics.com
 
 ##Spotify [*FOLLOW*]
-##The Spotify app for iOS will stop functioning unless it’s web service counterpart is whitelisted.
+##(ie. the Spotify app for iOS will stop functioning unless it’s web service counterpart is whitelisted.)
 spclient.wg.spotify.com
 apresolve.spotify.com
+open.spotify.com
 
 ##Target's Weekly Ads [I_DONT_USE_IT]
 # weeklyad.target.com
@@ -387,6 +388,25 @@ gravatar.com
 thetvdb.com
 themoviedb.com
 
+##mo'Kodi
+##https://github.com/newt-sc/a4kScrapers/blob/master/providers/a4kScrapers/en/torrent/lib/trackers.json
+##https://github.com/reddit-reaper/ScraperPackages/blob/master/A4KScrapers/providers/a4kScrapers/en/torrent/lib/trackers.json
+##pihole -w bitlordsearch.com eztv.io thekat.info 1337x.to www.limetorrents.info www.magnetdl.com movcr.cc nyaa.si pirateproxy.bet www.torrentdownloads.info torrentz2.eu yts.am zooqle.com
+bitlordsearch.com
+eztv.io
+thekat.info
+1337x.to
+www.limetorrents.info
+www.magnetdl.com
+movcr.cc
+nyaa.si
+pirateproxy.bet
+thepiratebay.org
+www.torrentdownloads.info
+torrentz2.eu
+yts.am
+zooqle.com
+
 ##Sonarr [I_DONT_USE_IT]
 # services.sonarr.tv
 # skyhook.sonarr.tv
@@ -395,11 +415,10 @@ themoviedb.com
 # forums.sonarr.tv
 
 
-##Placehold.it [*FOLLOW*]
+##Placehold.it [*FOLLOW*] [*ON_HOLD*]
 ##(Image placeholders often used during web design. Not sure why this is even blocked in the first place.)
-## METOO ;-p
-placehold.it
-placeholdit.imgix.net
+# placehold.it
+# placeholdit.imgix.net
 
 ##Dropbox [*FOLLOW*]
 ##as described here: https://www.reddit.com/r/pihole/comments/6fer0z/for_anyone_who_cant_seem_to_download_dropbox_files/
@@ -510,6 +529,9 @@ ipv6.msftncsi.com
 ##=======================================================================================
 ##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW
 ##=======================================================================================
+
+##Banking/betalingen
+live.adyen.com
 
 # *T*E*S*T* 1st:
 # --------------
