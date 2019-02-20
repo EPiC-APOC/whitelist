@@ -217,6 +217,8 @@ zpr.io
 ##Google Maps and other Google services
 # clients4.google.com
 # clients2.google.com
+##FiX Google(Chrome) picture search not showing picas... [*FOLLOW*]
+www.gstatic.com
 
 ##Chromecast (CAST with Google Chrome)
 #clients1.google.com [*NEW*]
@@ -562,6 +564,8 @@ live.adyen.com
 # static.ahold.com
 ####AD.NL --got fucked by RegEx list
 www.ad.nl
+####AD.NL --video's fix (o.a. AD.nl)
+player.ooyala.com
 # www.detelegraaf.nl
 # www.telegraaf.nl
 # www.google.nl
