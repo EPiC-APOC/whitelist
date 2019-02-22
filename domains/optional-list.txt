@@ -533,10 +533,16 @@ ipv6.msftncsi.com
 ##=======================================================================================
 
 ##Banking/betalingen
+# ------------------
 live.adyen.com
 
+##Sites/Apps-2-FiX
+# ----------------
+gateway.reddit.com
+
+# ==============
 # *T*E*S*T* 1st:
-# --------------
+# ==============
 # bol.com
 # www.bol.com
 # s.s-bol.com
