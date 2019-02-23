@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------
 # EPiC *fork* -4- optional-list.txt (+optional-list.sh) usage only !!
 # -------------------------------------------------------------------
-# fork(ed) status: 20190129 | recent update(s): 20190216
+# fork(ed) status: 20190129 | recent update(s): 10th. upd. @ 20190223
 # -------------------------------------------------------------------
 
 ##Adult Swim Videos on Amazon Firestick [I_DONT_USE_IT]
@@ -770,3 +770,6 @@ player.ooyala.com
 # www.vanlanschot.nl
 # handelsbanken.nl
 # www.handelsbanken.nl
+# ============== ============== ============== ==============
+# consent.talpanetwork.com (REFERAL ; oa. VeronicaInside.nl)
+cmp.faktor.mgr.consensu.org
