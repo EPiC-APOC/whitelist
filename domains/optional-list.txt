@@ -6,6 +6,8 @@
 # -------------------------------------------------------------------
 # fork(ed) status: 20190129 | recent update(s): 10th. upd. @ 20190223
 # -------------------------------------------------------------------
+# ==---->  ??th 'optional' adjustment
+# -------------------------------------------------------------------
 
 ##Adult Swim Videos on Amazon Firestick [I_DONT_USE_IT]
 # pmd.cdn.turner.com
@@ -91,6 +93,10 @@ winhelp2002.mvps.org
 sysctl.org
 pgl.yoyo.org
 zeustracker.abuse.ch
+bitbucket.org
+github.com
+# Hosts_Files & anti-adds dingen :
+s3.amazonaws.com
 
 ##Images not loading on aliexpress.com [UNSURE_IF_NEEDED]
 # ae01.alicdn.com
@@ -408,6 +414,19 @@ www.torrentdownloads.info
 torrentz2.eu
 yts.am
 zooqle.com
+# -----------------
+api.real-debrid.com
+api.themoviedb.org
+api.thetvdb.com
+api.trakt.tv
+omdbapi.com
+www.omdbapi.com
+# -----------------
+image.tmdb.org
+# -----------------
+opensubtitles.org
+# -----------------
+
 
 ##Sonarr [I_DONT_USE_IT]
 # services.sonarr.tv
@@ -523,22 +542,64 @@ ipv6.msftncsi.com
 # tsfe.trafficshaping.dsp.mp.microsoft.com
 
 ##=======================================================================================
-##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW
+##2019 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW '19
 ##=======================================================================================
 ##Dutch (Netherlands) websites whitelisting
 ##[OLD] https://discourse.pi-hole.net/t/dutch-netherlands-websites-whitelisting/2259
 ##[MEW] https://github.com/Beverdam/whitelist-Nederland/blob/master/domains/whitelist.txt
 ##=======================================================================================
-##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW
+##2019 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW '19
 ##=======================================================================================
 
 ##Banking/betalingen
 # ------------------
 live.adyen.com
 
+##Financial (o.a. tbv reserveringen/ticketservices/schouwburg etc)
+# ----------------------------------------------------------------
+secure.ogone.com
+
+##tbv. (online)Tijschriften/Nieuwssites (account)login
+# ----------------------------------------------------
+accounts.eu1.gigya.com
+cdns.eu1.gigya.com
+cdns.gigya.com
+sat.sanoma.fi
+# i.c.m. (online)Gaming ------------------------------
+duckworld.com
+spele.nl
+
+##consent.talpanetwork.com (REFERAL ; oa. VeronicaInside.nl)
+# ----------------------------------------------------------
+cmp.faktor.mgr.consensu.org
+
+##Anti-ADDblocker_SiTES
+# ---------------------
+adaway.org
+ads-blocker.com
+mirror1.malwaredomains.com
+openphish.com
+ransomwaretracker.abuse.ch
+www.malwaredomainlist.com
+www.youronlinechoices.com
+
 ##Sites/Apps-2-FiX
 # ----------------
+# REDDIT :
 gateway.reddit.com
+# KEYBASE :
+api-0.core.keybaseapi.com
+mdserver-0.kbfs.keybaseapi.com
+mdserver-1.kbfs.keybaseapi.com
+# ANGRYIP :
+angryip.org
+# IMGUR :
+imgur.com
+m.imgur.com
+prod.imgur.map.fastlylb.net
+# OPENSOURCE dingen :
+mirror.cedia.org.ec
+
 
 # ==============
 # *T*E*S*T* 1st:
@@ -770,6 +831,7 @@ player.ooyala.com
 # www.vanlanschot.nl
 # handelsbanken.nl
 # www.handelsbanken.nl
-# ============== ============== ============== ==============
-# consent.talpanetwork.com (REFERAL ; oa. VeronicaInside.nl)
-cmp.faktor.mgr.consensu.org
+# ============== ============== ==============
+# FalsePositives :
+fhm.nl
+www.fhm.nl
