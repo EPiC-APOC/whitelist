@@ -4,9 +4,9 @@
 # -------------------------------------------------------------------
 # EPiC *fork* -4- optional-list.txt (+optional-list.sh) usage only !!
 # -------------------------------------------------------------------
-# fork(ed) status: 20190129 | recent update(s): 10th. upd. @ 20190223
+# fork(ed) status: 20190129 | recent update(s): 11th. upd. @ 20190415
 # -------------------------------------------------------------------
-# ==---->  ??th 'optional' adjustment
+# ==---->  11th 'optional' adjustment  <---------------------========
 # -------------------------------------------------------------------
 
 ##Adult Swim Videos on Amazon Firestick [I_DONT_USE_IT]
