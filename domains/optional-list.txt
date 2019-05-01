@@ -1,41 +1,42 @@
 # Contributed by Anudeep <anudeep@protonmail.com>
-# OFFICIAL Project home page: https://github.com/anudeepND/whitelist
-# Licence: https://github.com/anudeepND/whitelist/blob/master/LICENSE
-# -------------------------------------------------------------------
-# EPiC *fork* -4- optional-list.txt (+optional-list.sh) usage only !!
-# -------------------------------------------------------------------
-# fork(ed) status: 20190129 | recent update(s): 11th. upd. @ 20190415
-# -------------------------------------------------------------------
-# ==---->  11th 'optional' adjustment  <---------------------========
-# -------------------------------------------------------------------
+# OFFICIAL Project page: https://github.com/anudeepND/whitelist
+# LiC. : https://github.com/anudeepND/whitelist/blob/master/LICENSE
+# -----------------------------------------------------------------
+# EPiC *fork* -4- optional-list.txt (+optional-list.sh) usage only!
+# -----------------------------------------------------------------
+# fork(ed) status: 20190129 | recent update: 12th. upd. at 20190501
+# -----------------------------------------------------------------
+# =======> 12th 'optional' adjustment <============================
+# -----------------------------------------------------------------
 
-##Adult Swim Videos on Amazon Firestick [I_DONT_USE_IT]
-# pmd.cdn.turner.com
-# i.cdn.turner.com
-# s.cdn.turner.com
-# z.cdn.turner.com
-# amd.cdn.turner.com
+##Adult Swim Videos on Amazon Firestick             [I_DONT_USE_IT]
+# pmd.cdn.turner.com                                [I_DONT_USE_IT]
+# i.cdn.turner.com                                  [I_DONT_USE_IT]
+# s.cdn.turner.com                                  [I_DONT_USE_IT]
+# z.cdn.turner.com                                  [I_DONT_USE_IT]
+# amd.cdn.turner.com                                [I_DONT_USE_IT]
 
-##Amazon Alexa and Amazon Shopping app [I_DONT_USE_IT]
-# device-metrics-us-2.amazon.com
-# device-metrics-us.amazon.com
+##Amazon Alexa and Amazon Shopping app              [I_DONT_USE_IT]
+# device-metrics-us-2.amazon.com                    [I_DONT_USE_IT]
+# device-metrics-us.amazon.com                      [I_DONT_USE_IT]
 
-##Amazon AWS (???) - whitelist to make Kryptonite work [I_DONT_USE_IT]
-# sqs.us-east-1.amazonaws.com
+##Amazon AWS ?? -whitelist to make Kryptonite work? [I_DONT_USE_IT]
+# sqs.us-east-1.amazonaws.com                       [I_DONT_USE_IT]
 
-##Bild.de [I_DONT_USE_IT]
-# acdn.adnxs.com
-# cdn1.smartadserver.com
-# ec-ns.sascdn.com
+##Bild.de                                           [I_DONT_USE_IT]
+# acdn.adnxs.com                                    [I_DONT_USE_IT]
+# cdn1.smartadserver.com                            [I_DONT_USE_IT]
+# ec-ns.sascdn.com                                  [I_DONT_USE_IT]
 
-##DirectTV Now [I_DONT_USE_IT]
-# js.maxmind.com
-# directvnow.com
-# directvapplications.hb.omtrdc.net
-# s.zkcdn.net
+##DirectTV Now                                      [I_DONT_USE_IT]
+# js.maxmind.com                                    [I_DONT_USE_IT]
+# directvnow.com                                    [I_DONT_USE_IT]
+# directvapplications.hb.omtrdc.net                 [I_DONT_USE_IT]
+# s.zkcdn.net                                       [I_DONT_USE_IT]
 
-##Facebook [*FOLLOW*]
-##probably only 'graph.facebook.com' is needed (well, at least a lot does NOT work if you block this one)
+##Facebook   [*FOLLOW*]   [*FOLLOW*]   [*FOLLOW*]   [*FOLLOW*]
+##probably only 'graph.facebook.com' is needed...   [*FOLLOW*]
+##(well, a lot doesn't work if you block this...)   [*FOLLOW*]
 # creative.ak.fbcdn.net
 # external-lhr0-1.xx.fbcdn.net
 # external-lhr10-1.xx.fbcdn.net
@@ -49,7 +50,7 @@
 # external-lhr8-1.xx.fbcdn.net
 # external-lhr9-1.xx.fbcdn.net
 # fbcdn-creative-a.akamaihd.net
-graph.facebook.com
+# graph.facebook.com                                [*DUPlicateS*]
 # scontent-lhr3-1.xx.fbcdn.net
 # scontent.xx.fbcdn.net
 # scontent.fgdl5-1.fna.fbcdn.net
@@ -67,22 +68,19 @@ graph.facebook.com
 # 6-edge-chat.facebook.com
 # edge-chat.facebook.com
 
-##Social fixes (ie. Instagram, Twitter, etc.) --mostly needed to allow redirects for instance...
-#graph.facebook.com [*DUPlicateS*]
-graph.instagram.com
-analytics.twitter.com
+##Fix - Images not loading on www.thecut.com        [I_DONT_USE_IT]
+# pixel.nymag.com                                   [I_DONT_USE_IT]
 
-##Fix - Images not loading on www.thecut.com [I_DONT_USE_IT]
-# pixel.nymag.com
+##GeForce Experience                                [I_DONT_USE_IT]
+# events.gfe.nvidia.com                             [I_DONT_USE_IT]
+# gfwsl.geforce.com                                 [I_DONT_USE_IT]
 
-##GeForce Experience [I_DONT_USE_IT]
-# events.gfe.nvidia.com
-# gfwsl.geforce.com
+##GTA Online telemetry, whitelist this domain,      [I_DONT_USE_IT]
+##...to prevent the game from crashing              [I_DONT_USE_IT]
+# prod.telemetry.ros.rockstargames.com              [I_DONT_USE_IT]
 
-##GTA Online telemetry. Whitelist this domain to prevent the game from crashing [I_DONT_USE_IT]
-# prod.telemetry.ros.rockstargames.com
-
-##Host files
+##Host files    [*FOLLOW*]  [*FOLLOW*]  [*FOLLOW*]  [*FOLLOW*]
+# ------------------------  ----------  ----------  ----------
 hosts-file.net
 raw.githubusercontent.com
 v.firebog.net
@@ -93,25 +91,27 @@ winhelp2002.mvps.org
 sysctl.org
 pgl.yoyo.org
 zeustracker.abuse.ch
+# ------------------------  [*FOLLOW*]  [*FOLLOW*]  [*FOLLOW*]
 bitbucket.org
 github.com
-# Hosts_Files & anti-adds dingen :
+##Hosts_Files_&_ANTi-ADDS   [*FOLLOW*]  [*FOLLOW*]  [*FOLLOW*]
 s3.amazonaws.com
+# ------------------------  ----------  ----------  ----------
 
-##Images not loading on aliexpress.com [UNSURE_IF_NEEDED]
-# ae01.alicdn.com
+##Images not loading on aliexpress.com              [UNSURE_IF_NEEDED]
+# ae01.alicdn.com                                   [UNSURE_IF_NEEDED]
 
-##Jackbox.tv [I_DONT_USE_IT]
-# www.google-analytics.com
-# google-analytics.com
-# ssl.google-analytics.com
+##Jackbox.tv                                        [I_DONT_USE_IT]
+# www.google-analytics.com                          [I_DONT_USE_IT]
+# google-analytics.com                              [I_DONT_USE_IT]
+# ssl.google-analytics.com                          [I_DONT_USE_IT]
 
-##Lotus talk [I_DONT_USE_IT]
-# lotustalk.com
-# www.lotustalk.com
+##Lotus talk                                        [I_DONT_USE_IT]
+# lotustalk.com                                     [I_DONT_USE_IT]
+# www.lotustalk.com                                 [I_DONT_USE_IT]
 
-##National Express, UK (nationalexpress.com/en) - Unable to book journey [I_DONT_USE_IT]
-# cdns.gigya.com
+##National Express, UK (nationalexpress.com/en)     [I_DONT_USE_IT]
+# cdns.gigya.com                                    [*DUPlicateS*]
 
 ##Netflix - Domains needed for netlix to work correctly [*FOLLOW*]
 api-global.netflix.com
@@ -119,66 +119,66 @@ ichnaea.netflix.com
 appboot.netflix.com
 secure.netflix.com
 
-##Nvidia updates [MOST_LIKELY_NEEDED]
+##Nvidia updates                                    [UNSURE_IF_NEEDED]
 ota-downloads.nvidia.com
 
-##Pluto.tv [I_DONT_USE_IT]
-# images.pluto.tv
-# stitcher.pluto.tv
-# siloh.pluto.tv
-# silo.pluto.tv
-# cdn-mobile.api.pluto.tv
-# api.pluto.tv
-# players.pluto.tv
+##Pluto.tv                                          [I_DONT_USE_IT]
+# images.pluto.tv                                   [I_DONT_USE_IT]
+# stitcher.pluto.tv                                 [I_DONT_USE_IT]
+# siloh.pluto.tv                                    [I_DONT_USE_IT]
+# silo.pluto.tv                                     [I_DONT_USE_IT]
+# cdn-mobile.api.pluto.tv                           [I_DONT_USE_IT]
+# api.pluto.tv                                      [I_DONT_USE_IT]
+# players.pluto.tv                                  [I_DONT_USE_IT]
 
-##Roku HGTV app: Failed to play previous episodes [I_DONT_USE_IT]
-# dcs-vod.apis.anvato.net
+##Roku HGTV app: Failed to play previous episodes   [I_DONT_USE_IT]
+# dcs-vod.apis.anvato.net                           [I_DONT_USE_IT]
+#                                                   ###############
+##Roku TNT app: Failed to play videos               [I_DONT_USE_IT]
+# z.cdn.turner.com                                  [I_DONT_USE_IT]
+# manifest.auditude.com                             [I_DONT_USE_IT]
+#                                                   ###############
+##Roku TV CW and NBC app                            [I_DONT_USE_IT]
+# cwtv-mrss-akamai.cwtv.com                         [I_DONT_USE_IT]
+# cwtv-prod-elb.digitalsmiths.net                   [I_DONT_USE_IT]
+# redirector.googlevideo.com                        [I_DONT_USE_IT]
 
-##Roku TNT app: Failed to play videos [I_DONT_USE_IT]
-# z.cdn.turner.com
-# manifest.auditude.com
+##Samsung TV's Amazon Prime Video app               [I_DONT_USE_IT]
+# time.samsungcloudsolution.com                     [I_DONT_USE_IT]
+#                                                   ###############
+##Samsung smart TV's network issue                  [I_DONT_USE_IT]
+# cdn.samsungcloudsolution.com                      [I_DONT_USE_IT]
 
-##Roku TV CW and NBC app [I_DONT_USE_IT]
-# cwtv-mrss-akamai.cwtv.com
-# cwtv-prod-elb.digitalsmiths.net
-# redirector.googlevideo.com
+##SBS Online videos not playing                     [I_DONT_USE_IT]
+# www.sbs.com.au                                    [I_DONT_USE_IT]
+# sbs.com.au                                        [I_DONT_USE_IT]
+# api.sbs.com.au                                    [I_DONT_USE_IT]
+# media.sbs.com.au                                  [I_DONT_USE_IT]
+# resources.sbs.com.au                              [I_DONT_USE_IT]
+# videocdn-sbs.akamaized.net                        [I_DONT_USE_IT]
+# sbsvodns-vh.akamaihd.net                          [I_DONT_USE_IT]
+# link.theplatform.com                              [I_DONT_USE_IT]
+# e7065.e2.akamaiedge.net                           [I_DONT_USE_IT]
+# a463.w10.akamai.net                               [I_DONT_USE_IT]
+# a790.w16.akamai.net                               [I_DONT_USE_IT]
 
-##Samsung TV's Amazon Prime Video app [I_DONT_USE_IT]
-# time.samsungcloudsolution.com
+##Share buttons on websites                         [I_DONT_USE_IT]
+# dsms0mj1bbhn4.cloudfront.net                      [I_DONT_USE_IT]
+# shareaholic.com                                   [I_DONT_USE_IT]
 
-##Samsung smart TV's network issue [I_DONT_USE_IT]
-# cdn.samsungcloudsolution.com
+##Sky Go (skygo.sky.de)                             [I_DONT_USE_IT]
+# assets.adobedtm.com                               [I_DONT_USE_IT]
 
-##SBS Online videos not playing [I_DONT_USE_IT]
-# www.sbs.com.au
-# sbs.com.au
-# api.sbs.com.au
-# media.sbs.com.au
-# resources.sbs.com.au
-# videocdn-sbs.akamaized.net
-# sbsvodns-vh.akamaihd.net
-# link.theplatform.com
-# e7065.e2.akamaiedge.net
-# a463.w10.akamai.net
-# a790.w16.akamai.net
+##Target's Weekly Ads                               [I_DONT_USE_IT]
+# weeklyad.target.com                               [I_DONT_USE_IT]
+# m.weeklyad.target.com                             [I_DONT_USE_IT]
+# weeklyad.target.com.edgesuite.net                 [I_DONT_USE_IT]
 
-##Share buttons on websites [I_DONT_USE_IT]
-# dsms0mj1bbhn4.cloudfront.net
-# shareaholic.com
+##UK University application website                 [I_DONT_USE_IT]
+##https://github.com/anudeepND/whitelist/issues/30  [I_DONT_USE_IT]
+# track.ucas.com                                    [I_DONT_USE_IT]
 
-##Sky Go (skygo.sky.de) [I_DONT_USE_IT]
-# assets.adobedtm.com
-
-##Target's Weekly Ads [I_DONT_USE_IT]
-# weeklyad.target.com
-# m.weeklyad.target.com
-# weeklyad.target.com.edgesuite.net
-
-##UK University application website [I_DONT_USE_IT]
-##https://github.com/anudeepND/whitelist/issues/30
-# track.ucas.com
-
-##URL shorteners
+##URL shorteners  [*FOLLOW*] [*FOLLOW*] [*FOLLOW*]  [*FOLLOW*]
 adf.ly
 bit.do
 bit.ly
@@ -199,17 +199,20 @@ ow.ly
 yourls.org
 zpr.io
 
-##Videos not playing on  arstechnica/wired/vogue/newyorker [I_DONT_USE_IT]
-# Note: ads before videos may appear after whitelisting this domain
-# d2c8v52ll5s99u.cloudfront.net
+##Videos not playing on  arstechnica/wired/vogue/newyorker          [I_DONT_USE_IT]
+# Note: ads before videos may appear after whitelisting this domain [I_DONT_USE_IT]
+# d2c8v52ll5s99u.cloudfront.net                                     [I_DONT_USE_IT]
 
-##Videos not playing on www.jacquielawson.com [I_DONT_USE_IT]
-# f1.media.brightcove.com
+##Videos not playing on www.jacquielawson.com       [I_DONT_USE_IT]
+# f1.media.brightcove.com                           [I_DONT_USE_IT]
 
-##WatchESPN [UNSURE_IF_NEEDED]
-# fpdownload.adobe.com
-# entitlement.auth.adobe.com
-# livepassdl.conviva.com
+##WatchESPN                                         [UNSURE_IF_NEEDED]
+# fpdownload.adobe.com                              [UNSURE_IF_NEEDED]
+# entitlement.auth.adobe.com                        [UNSURE_IF_NEEDED]
+# livepassdl.conviva.com                            [UNSURE_IF_NEEDED]
+# --------------------------------------------------------------------  ----------- 
+
+
 
 ##================================================================
 ##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones
@@ -219,201 +222,740 @@ zpr.io
 ##20190205 NEW additions toevoegingen Ergänzungen ajouts adiciones
 ##================================================================
 
-##Google (Maps, Youtube, etc) [*ON_HOLD*] --MIGHT ALSO BE USED WITH CHROMECAST
-##Google Maps and other Google services
-# clients4.google.com
-# clients2.google.com
-##FiX Google(Chrome) picture search not showing picas... [*FOLLOW*]
-www.gstatic.com
-
-##Chromecast (CAST with Google Chrome)
-#clients1.google.com [*NEW*]
-#clients2.google.com [*NOPE*]
-#clients3.google.com [*DUPlicateS*]
-#clients4.google.com [*NOPE*]
-#PROBABLY NEEDED ???
-#redirector.gvt1.com [*PROBABLY]
-#clients5.google.com [UKNOWN --SEE: https://github.com/anudeepND/whitelist/blob/master/domains/whitelist.txt]
-#clients6.google.com [UKNOWN --SEE: https://github.com/anudeepND/whitelist/blob/master/domains/whitelist.txt]
+##Google (Maps, Youtube, etc) --MIGHT ALSO BE USED WITH CHROMECAST  [*ON_HOLD*]
+##Google Maps and other Google services                             [*ON_HOLD*]
+# clients4.google.com                                               [*ON_HOLD*]
+# clients2.google.com                                               [*ON_HOLD*]
+##20190311                                                                                                                                                              ###########
+##I was unable to load google maps data (photos, maps, locations, location info, etc) until reaching a timeout (15-20 seconds) without unblocking app-measurement.com   [*ON_HOLD*]
+# app-measurement.com                                                                                                                                                   [*ON_HOLD*]
 
 ##YouTube history
 s.youtube.com
 video-stats.l.google.com
 
-##Google Play
-##As described here: https://www.reddit.com/r/pihole/comments/6r79k6/google_play_store_been_blocked/
+##Google Play                                                       ##########
+##As described here:                                                #############
+##https://www.reddit.com/r/pihole/comments/6r79k6/google_play_store_been_blocked/
+# ( Google Play Android updates / Captive-portal tests )            #############
 android.clients.google.com
 
-##Microsoft (Windows, Office, Skype, etc)
-##Windows uses this to verify connectivity to Internet
-www.msftncsi.com
+##20190313                                                          ##########
+##Gmail (Google Mail)                                               [*FOLLOW*]
+##iOS app requires this to be whitelisted for the app to connect.   [*FOLLOW*]
+# googleapis.l.google.com                                           [*FOLLOW*]
 
-##Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com [*ON_HOLD*]
-# outlook.office365.com
-# products.office.com
-# c.s-microsoft.com
-# i.s-microsoft.com
-# login.live.com
+##Microsoft (Windows, Office, Skype, etc)                           [*DUPlicateS*]
+##Windows uses this to verify connectivity to Internet              [*DUPlicateS*]
+# www.msftncsi.com                                                  [*DUPlicateS*]
 
-##Backup bitlocker recovery key to Microsoft account [*FOLLOW*]
+##Microsoft Web Pages (Outlook, Office365, Live, Microsoft.com      [*ON_HOLD*]
+# outlook.office365.com                                             [*ON_HOLD*]
+# products.office.com                                               [*ON_HOLD*]
+# c.s-microsoft.com                                                 [*ON_HOLD*]
+# i.s-microsoft.com                                                 [*ON_HOLD*]
+# login.live.com                                                    [*ON_HOLD*]
+##20190303                                                                                                                                                                                                      ###########
+##A login loop was resulting from accessing OneDrive from within Office365 apps continually asking for Microsoft username and password. This seems to be resolved via whitelisting login.microsoftonline.com    [*ON_HOLD*]
+##Please also see this Reddit post: https://www.reddit.com/r/pihole/comments/aqm9oq/microsoft_office_365_blocked/                                                                                               [*ON_HOLD*]
+# login.microsoftonline.com                                         [*ON_HOLD*]                                                                                                                                 [*ON_HOLD*]
+
+##Backup bitlocker recovery key to Microsoft account                [*FOLLOW*]
 g.live.com
 
-##Windows Store [*ON_HOLD*]
-# dl.delivery.mp.microsoft.com
-# geo-prod.do.dsp.mp.microsoft.com
-# displaycatalog.mp.microsoft.com
+##Windows Store                                                     [*ON_HOLD*]
+# dl.delivery.mp.microsoft.com                                      [*ON_HOLD*]
+# geo-prod.do.dsp.mp.microsoft.com                                  [*ON_HOLD*]
+# displaycatalog.mp.microsoft.com                                   [*ON_HOLD*]
 
-##Xbox Live [I_DONT_USE_IT]
-##This domain is used for sign-ins, creating new accounts, and recovering existing Microsoft accounts on your (confirmed by Microsoft)
-# v10.events.data.microsoft.com
+##Xbox Live                                                                                                                             [I_DONT_USE_IT]
+##This domain is used for sign-ins, creating new accounts, and recovering existing Microsoft accounts on your (confirmed by Microsoft)  [I_DONT_USE_IT]
+# v10.events.data.microsoft.com                                                                                                         [I_DONT_USE_IT]
+# v20.events.data.microsoft.com                                                                                                         [I_DONT_USE_IT]
+#                                                                                                                                       ###############
+##There are several domains discovered initially                                                                                        [I_DONT_USE_IT]
+##on Reddit: https://www.reddit.com/r/xboxone/comments/5khrrl/achievements_not_unlocking/                                               [I_DONT_USE_IT]
+##and /r/xboxone: https://www.reddit.com/r/xboxone/comments/5l7bm1/tech_piholeother_dns_users_additional_whitelist/                     [I_DONT_USE_IT]
+##which were also confirmed by Microsoft as being required by Xbox Live for full functionality.                                         [I_DONT_USE_IT]
+# xbox.ipv6.microsoft.com                                                                                                               [I_DONT_USE_IT]
+# device.auth.xboxlive.com                                                                                                              [I_DONT_USE_IT]
+# www.msftncsi.com                                                                                                                      [I_DONT_USE_IT]
+# title.mgt.xboxlive.com                                                                                                                [I_DONT_USE_IT]
+# xsts.auth.xboxlive.com                                                                                                                [I_DONT_USE_IT]
+# title.auth.xboxlive.com                                                                                                               [I_DONT_USE_IT]
+# ctldl.windowsupdate.com                                                                                                               [*DUPlicateS*]
+# attestation.xboxlive.com                                                                                                              [I_DONT_USE_IT]
+# xboxexperiencesprod.experimentation.xboxlive.com                                                                                      [I_DONT_USE_IT]
+# xflight.xboxlive.com                                                                                                                  [I_DONT_USE_IT]
+# cert.mgt.xboxlive.com                                                                                                                 [I_DONT_USE_IT]
+# xkms.xboxlive.com                                                                                                                     [I_DONT_USE_IT]
+# def-vef.xboxlive.com                                                                                                                  [I_DONT_USE_IT]
+# notify.xboxlive.com                                                                                                                   [I_DONT_USE_IT]
+# help.ui.xboxlive.com                                                                                                                  [I_DONT_USE_IT]
+# licensing.xboxlive.com                                                                                                                [I_DONT_USE_IT]
+# eds.xboxlive.com                                                                                                                      [I_DONT_USE_IT]
+# www.xboxlive.com                                                                                                                      [I_DONT_USE_IT]
+# v10.vortex-win.data.microsoft.com                                                                                                     [I_DONT_USE_IT]
+# settings-win.data.microsoft.com                                                                                                       [I_DONT_USE_IT]
+##https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/12:                                                                  ###############
+# v20.vortex-win.data.microsoft.com                                                                                                     [I_DONT_USE_IT]
+##20190208                                                                                                                              ###############
+##for xbox live messages to work, I had to whitelist:                                                                                   [I_DONT_USE_IT]
+# client-s.gateway.messenger.live.com                                                                                                   [I_DONT_USE_IT]
+##For 'messages for web' to display a qr code I had to whitelist:                                                                       [I_DONT_USE_IT]
+# www.google-analytics.com                                                                                                              [I_DONT_USE_IT]
 
-##There are several domains discovered initially [I_DONT_USE_IT]
-##on Reddit: https://www.reddit.com/r/xboxone/comments/5khrrl/achievements_not_unlocking/
-##and /r/xboxone: https://www.reddit.com/r/xboxone/comments/5l7bm1/tech_piholeother_dns_users_additional_whitelist/
-##which were also confirmed by Microsoft as being required by Xbox Live for full functionality.
-# xbox.ipv6.microsoft.com
-# device.auth.xboxlive.com
-# www.msftncsi.com
-# title.mgt.xboxlive.com
-# xsts.auth.xboxlive.com
-# title.auth.xboxlive.com
-# ctldl.windowsupdate.com
-# attestation.xboxlive.com
-# xboxexperiencesprod.experimentation.xboxlive.com
-# xflight.xboxlive.com
-# cert.mgt.xboxlive.com
-# xkms.xboxlive.com
-# def-vef.xboxlive.com
-# notify.xboxlive.com
-# help.ui.xboxlive.com
-# licensing.xboxlive.com
-# eds.xboxlive.com
-# www.xboxlive.com
-# v10.vortex-win.data.microsoft.com
-# settings-win.data.microsoft.com
-##https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/12:
-# v20.vortex-win.data.microsoft.com
+##Skype                                                                 [*ON_HOLD*]
+##See the GitHub Topic on these domains:                                [*ON_HOLD*]
+##https://github.com/pi-hole/pi-hole/issues/380#issuecomment-195977839  [*ON_HOLD*]
+# s.gateway.messenger.live.com                                          [*ON_HOLD*]
+# client-s.gateway.messenger.live.com                                   [*ON_HOLD*]
+# ui.skype.com                                                          [*ON_HOLD*]
+# pricelist.skype.com                                                   [*ON_HOLD*]
+# apps.skype.com                                                        [*ON_HOLD*]
+# m.hotmail.com                                                         [*ON_HOLD*]
+# sa.symcb.com                                                          [*ON_HOLD*]
+# s{1..5}.symcb.com                                                     [*ON_HOLD*]
 
-##Skype [*ON_HOLD*]
-##See the GitHub Topic on these domains: https://github.com/pi-hole/pi-hole/issues/380#issuecomment-195977839
-# s.gateway.messenger.live.com
-# client-s.gateway.messenger.live.com
-# ui.skype.com
-# pricelist.skype.com
-# apps.skype.com
-# m.hotmail.com
-# sa.symcb.com
-# s{1..5}.symcb.com
+##Microsoft Office                                                                  [*ON_HOLD*]
+##Reddit link - r/pihole - MS Office issues:                                        [*ON_HOLD*]
+##https://www.reddit.com/r/pihole/comments/5eq4on/problems_with_microsoft_office/   [*ON_HOLD*]
+# officeclient.microsoft.com                                                        [*ON_HOLD*]
 
-##Microsoft Office [*ON_HOLD*]
-##Reddit link - r/pihole - MS Office issues: https://www.reddit.com/r/pihole/comments/5eq4on/problems_with_microsoft_office/
-# officeclient.microsoft.com
+##Jackbox.tv                                                        [I_DONT_USE_IT]
+##Jackbox.tv will not load unless you whitelist google-analytics    [I_DONT_USE_IT]
+# www.google-analytics.com                                          [I_DONT_USE_IT]
+# ssl.google-analytics.com                                          [I_DONT_USE_IT]
 
-##Jackbox.tv [I_DONT_USE_IT]
-##Jackbox.tv will not load unless you whitelist google-analytics
-# www.google-analytics.com
-# ssl.google-analytics.com
-
-##Spotify [*FOLLOW*]
-##(ie. the Spotify app for iOS will stop functioning unless it’s web service counterpart is whitelisted.)
+##Spotify                                                           [*FOLLOW*]
+##ie. the Spotify app for iOS will stop functioning,                [*FOLLOW*]
+##unless it's web service counterpart is whitelisted.               [*FOLLOW*]
 spclient.wg.spotify.com
 apresolve.spotify.com
 open.spotify.com
 
-##Target's Weekly Ads [I_DONT_USE_IT]
-# weeklyad.target.com
-# m.weeklyad.target.com
-# weeklyad.target.com.edgesuite.net
+##Target's Weekly Ads                                               [I_DONT_USE_IT]
+# weeklyad.target.com                                               [I_DONT_USE_IT]
+# m.weeklyad.target.com                                             [I_DONT_USE_IT]
+# weeklyad.target.com.edgesuite.net                                 [I_DONT_USE_IT]
 
 ###Facebook, Facebook Messenger [*DUPlicateS*]
 ###PROBABLY only 'graph.facebook.com' is needed (well, at least a lot does NOT work if you block this one)
-# creative.ak.fbcdn.net
-# external-lhr0-1.xx.fbcdn.net
-# external-lhr1-1.xx.fbcdn.net
-# external-lhr10-1.xx.fbcdn.net
-# external-lhr2-1.xx.fbcdn.net
-# external-lhr3-1.xx.fbcdn.net
-# external-lhr4-1.xx.fbcdn.net
-# external-lhr5-1.xx.fbcdn.net
-# external-lhr6-1.xx.fbcdn.net
-# external-lhr7-1.xx.fbcdn.net
-# external-lhr8-1.xx.fbcdn.net
-# external-lhr9-1.xx.fbcdn.net
-# fbcdn-creative-a.akamaihd.net
-# scontent-lhr3-1.xx.fbcdn.net
-# scontent.xx.fbcdn.net
-# scontent.fgdl5-1.fna.fbcdn.net
-# graph.facebook.com
-# connect.facebook.com
-# cdn.fbsbx.com
-# api.facebook.com
-# edge-mqtt.facebook.com
-# mqtt.c10r.facebook.com
-# portal.fb.com
-# star.c10r.facebook.com
-# star-mini.c10r.facebook.com
-# b-api.facebook.com
+##20190211                                                              ##########
+##Added upload.facebook.com to whitelist in order to upload to Facebook [*FOLLOW*]
+upload.facebook.com
+# creative.ak.fbcdn.net                                                 [*FOLLOW*]
+# external-lhr0-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr1-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr10-1.xx.fbcdn.net                                         [*FOLLOW*]
+# external-lhr2-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr3-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr4-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr5-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr6-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr7-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr8-1.xx.fbcdn.net                                          [*FOLLOW*]
+# external-lhr9-1.xx.fbcdn.net                                          [*FOLLOW*]
+# fbcdn-creative-a.akamaihd.net                                         [*FOLLOW*]
+# scontent-lhr3-1.xx.fbcdn.net                                          [*FOLLOW*]
+# scontent.xx.fbcdn.net                                                 [*FOLLOW*]
+# scontent.fgdl5-1.fna.fbcdn.net                                        [*FOLLOW*]
+# graph.facebook.com                                                    [*DUPlicateS*]
+##20190312                                                              ###############
+##Adding b-graph.facebook.com to Facebook (iOS app requires it 2 login) [I_DONT_USE_IT]
+# b-graph.facebook.com                                                  [I_DONT_USE_IT]
+# connect.facebook.com                                                  [*FOLLOW*]
+# cdn.fbsbx.com                                                         [*FOLLOW*]
+# api.facebook.com                                                      [*FOLLOW*]
+# edge-mqtt.facebook.com                                                [*FOLLOW*]
+# mqtt.c10r.facebook.com                                                [*FOLLOW*]
+# portal.fb.com                                                         [*FOLLOW*]
+# star.c10r.facebook.com                                                [*FOLLOW*]
+# star-mini.c10r.facebook.com                                           [*FOLLOW*]
+# b-api.facebook.com                                                    [*FOLLOW*]
+##20190210                                                              ##########
+##Added fb.me to Facebook list, (used to link internal support msgs.)   [*FOLLOW*]
+# fb.me                                                                 [*FOLLOW*]
 
-##DirectTV [*DUPlicateS*] [I_DONT_USE_IT]
-##Sourced from here: https://www.reddit.com/r/pihole/comments/5qxjax/anyone_have_directvnow_working_with_pihole/
-# directvnow.com
-# directvapplications.hb.omtrdc.net
-# s.zkcdn.net
-# js.maxmind.com
+##DirectTV [I_DONT_USE_IT] [*DUPlicateS*] [*DUPlicateS*] [*DUPlicateS*] [*DUPlicateS*]          [I_DONT_USE_IT]
+##Sourced from here:                                                    [I_DONT_USE_IT]         [*DUPlicateS*]
+##https://www.reddit.com/r/pihole/comments/5qxjax/anyone_have_directvnow_working_with_pihole/   [I_DONT_USE_IT]
+# directvnow.com                                                        [I_DONT_USE_IT]         [*DUPlicateS*]
+# directvapplications.hb.omtrdc.net                                     [*DUPlicateS*]          [I_DONT_USE_IT]
+# s.zkcdn.net                                                           [I_DONT_USE_IT]         [*DUPlicateS*]
+# js.maxmind.com                                                        [*DUPlicateS*]          [I_DONT_USE_IT]
 
-##Bild DE [*DUPlicateS*] [I_DONT_USE_IT]
-# ec-ns.sascdn.com
+##Bild DE [I_DONT_USE_IT] [*DUPlicateS*] [I_DONT_USE_IT] [*DUPlicateS*] [I_DONT_USE_IT]         [*DUPlicateS*]
+# ec-ns.sascdn.com                                                      [*DUPlicateS*]          [I_DONT_USE_IT]
 
-##Domains used by Plex [I_DONT_USE_IT]
-# plex.tv
-# tvdb2.plex.tv
-# pubsub.plex.bz
-# proxy.plex.bz
-# proxy02.pop.ord.plex.bz
-# cpms.spop10.ams.plex.bz
-# meta-db-worker02.pop.ric.plex.bz
-# meta.plex.bz
-# tvthemes.plexapp.com.cdn.cloudflare.net
-# tvthemes.plexapp.com
-# 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
-# meta.plex.tv
-# cpms35.spop10.ams.plex.bz
-# proxy.plex.tv
-# metrics.plex.tv
-# pubsub.plex.tv
-# status.plex.tv
-# www.plex.tv
-# node.plexapp.com
-# nine.plugins.plexapp.com
-# staging.plex.tv
-# app.plex.tv
-# o1.email.plex.tv
-# o2.sg0.plex.tv
-# dashboard.plex.tv
+##Domains used by Plex                                                  [I_DONT_USE_IT]
+# plex.tv                                                               [I_DONT_USE_IT]
+# tvdb2.plex.tv                                                         [I_DONT_USE_IT]
+# pubsub.plex.bz                                                        [I_DONT_USE_IT]
+# proxy.plex.bz                                                         [I_DONT_USE_IT]
+# proxy02.pop.ord.plex.bz                                               [I_DONT_USE_IT]
+# cpms.spop10.ams.plex.bz                                               [I_DONT_USE_IT]
+# meta-db-worker02.pop.ric.plex.bz                                      [I_DONT_USE_IT]
+# meta.plex.bz                                                          [I_DONT_USE_IT]
+# tvthemes.plexapp.com.cdn.cloudflare.net                               [I_DONT_USE_IT]
+# tvthemes.plexapp.com                                                  [I_DONT_USE_IT]
+# 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services   [I_DONT_USE_IT]
+# meta.plex.tv                                                          [I_DONT_USE_IT]
+# cpms35.spop10.ams.plex.bz                                             [I_DONT_USE_IT]
+# proxy.plex.tv                                                         [I_DONT_USE_IT]
+# metrics.plex.tv                                                       [I_DONT_USE_IT]
+# pubsub.plex.tv                                                        [I_DONT_USE_IT]
+# status.plex.tv                                                        [I_DONT_USE_IT]
+# www.plex.tv                                                           [I_DONT_USE_IT]
+# node.plexapp.com                                                      [I_DONT_USE_IT]
+# nine.plugins.plexapp.com                                              [I_DONT_USE_IT]
+# staging.plex.tv                                                       [I_DONT_USE_IT]
+# app.plex.tv                                                           [I_DONT_USE_IT]
+# o1.email.plex.tv                                                      [I_DONT_USE_IT]
+# o2.sg0.plex.tv                                                        [I_DONT_USE_IT]
+# dashboard.plex.tv                                                     [I_DONT_USE_IT]
+##2018sept.                                                             ###############
+##Are you guys sure about Plex?                                         ###############
+##I have nothing whitelisted and nothing is showing up blocked/pi-holed ###############
+##Just tried - appleid.apple.com (NO need to whitelist).                ###############
+##target - needs:                                                       ###############
+##api.target.com, redsky.target.com and profile.target.com              ###############
+##...to search their site :                                             ###############
+# api.target.com                                                        [I_DONT_USE_IT]
+# redsky.target.com                                                     [I_DONT_USE_IT]
+# profile.target.com                                                    [I_DONT_USE_IT]
+##BJs app - needs:                                                      ###############
+##cdn.cpnscdn.com to show pictures of products in the app :             ###############
+# cdn.cpnscdn.com                                                       [I_DONT_USE_IT]
 
-##Domains used by/FOR Plex [*AND_OTHERS*] [*KODi*]
+##Domains used by/FOR Plex [*AND_OTHERS*] [*KODi*] [*FOLLOW*] [*MOVED*] [*XBMC*/*XBMP*]
+# gravatar.com                                                          [*M*O*V*E*D*]
+# thetvdb.com                                                           [*M*O*V*E*D*]
+# themoviedb.com                                                        [*M*O*V*E*D*]
+
+##Sonarr                                                                [I_DONT_USE_IT]
+# services.sonarr.tv                                                    [I_DONT_USE_IT]
+# skyhook.sonarr.tv                                                     [I_DONT_USE_IT]
+# download.sonarr.tv                                                    [I_DONT_USE_IT]
+# apt.sonarr.tv                                                         [I_DONT_USE_IT]
+# forums.sonarr.tv                                                      [I_DONT_USE_IT]
+
+##Placehold.it                                                          [*FOLLOW*]
+##Image placeholders often used during web design,                      [*FOLLOW*]
+##NOT sure why this is even blocked in the first place...               [*FOLLOW*]
+# placehold.it                                                          [*ON_HOLD*]
+# placeholdit.imgix.net                                                 [*ON_HOLD*]
+
+##Dropbox                                                                                               [*FOLLOW*]
+##as described here:                                                                                    [*FOLLOW*]
+##https://www.reddit.com/r/pihole/comments/6fer0z/for_anyone_who_cant_seem_to_download_dropbox_files/   [*FOLLOW*]
+dl.dropboxusercontent.com
+ns1.dropbox.com
+ns2.dropbox.com
+
+##Fox News                                                                          [*ON_HOLD*]
+##as described here:                                                                [*ON_HOLD*]
+##https://discourse.pi-hole.net/t/cant-watch-fox-news-live/1563/3?u=jacob.salmela   [*ON_HOLD*]
+# widget-cdn.rpxnow.com                                                             [*ON_HOLD*]
+
+##Images on Marketwatch.com                                             [I_DONT_USE_IT]
+# s.marketwatch.com                                                     [I_DONT_USE_IT]
+
+##Apple Music                                                           [I_DONT_USE_IT]
+# itunes.apple.com                                                      [I_DONT_USE_IT]
+##20190324                                                              ###############
+# s.mzstatic.com                                                        [I_DONT_USE_IT]
+
+##GoDaddy webmail buttons                                               [I_DONT_USE_IT]
+# imagesak.secureserver.net                                             [I_DONT_USE_IT]
+
+##Google Chrome (to update on ubuntu)                                   [*ON_HOLD*]
+# dl.google.com                                                         [*ON_HOLD*]
+
+##Apple ID                                                              [I_DONT_USE_IT]
+# appleid.apple.com                                                     [I_DONT_USE_IT]
+
+##WatchESPN [*DUPlicateS*] [*DUPlicateS*] [*DUPlicateS*] [*DUPlicateS*] [I_DONT_USE_IT]
+##as described here:                                                    [I_DONT_USE_IT]
+##https://www.reddit.com/r/pihole/comments/4p1cdh/watchespn/d4kaz07/    [I_DONT_USE_IT]
+# fpdownload.adobe.com                                                  [*DUPlicateS*]
+# entitlement.auth.adobe.com                                            [*DUPlicateS*]
+# livepassdl.conviva.com                                                [*DUPlicateS*]
+
+##NVIDIA GeForce Experience [*DUPlicateS*]  [NViDiA]    [*DUPlicateS*]  [I_DONT_USE_IT] [*DUPlicateS*]
+##GFE requires this                                                     [*DUPlicateS*]  [I_DONT_USE_IT]
+##https://www.reddit.com/r/pihole/comments/7n0es7/geforce_experience_features_blocked/  [*DUPlicateS*]
+##to download driver updates (or events.gfe.nvidia.com 37,              [*DUPlicateS*]  [I_DONT_USE_IT]
+##but that is also used for telemetry).                                 [I_DONT_USE_IT] [*DUPlicateS*]
+# gfwsl.geforce.com                                                     [*DUPlicateS*]  [I_DONT_USE_IT]
+
+##Videos not playing in times.com and nydailynews.com                   [I_DONT_USE_IT]
+# elivery.vidible.tv                                                    [I_DONT_USE_IT]
+# img.vidible.tv                                                        [I_DONT_USE_IT]
+# videos.vidible.tv                                                     [I_DONT_USE_IT]
+# edge.api.brightcove.com                                               [I_DONT_USE_IT]
+# cdn.vidible.tv                                                        [I_DONT_USE_IT]
+
+##Bing Maps Platform                                                    [*ON_HOLD*]
+##as described here: https://github.com/anudeepND/whitelist/issues/18   [*ON_HOLD*]
+# dev.virtualearth.net                                                  [*ON_HOLD*]
+# ecn.dev.virtualearth.net                                              [*ON_HOLD*]
+# t0.ssl.ak.dynamic.tiles.virtualearth.net                              [*ON_HOLD*]
+# t0.ssl.ak.tiles.virtualearth.net                                      [*ON_HOLD*]
+
+##Google Play Android updates   [*DUPlicateS*]  [*FOLLOW*]  [*FOLLOW*]  [*DUPlicateS*]
+# android.clients.google.com    [*FOLLOW*]  [*DUPlicateS*]  [*FOLLOW*]  [*FOLLOW*]
+
+##Moto phones OS updates                                                [I_DONT_USE_IT]
+# appspot-preview.l.google.com                                          [I_DONT_USE_IT]
+
+##Captive-portal tests                                                  [*FOLLOW*]
+##These domains are checked by the 'OS' when connecting via wifi ;      [*FOLLOW*]
+##IF they don't get the response they expect,                           [*FOLLOW*]
+##they may try to open a wifi login page or similar,                    [*FOLLOW*]
+##as they believe they are located behind a captive portal.             [*FOLLOW*]
+#                                                                       ##########
+##Android/Chrome                                                        [*FOLLOW*]
+connectivitycheck.android.com
+# android.clients.google.com    [*FOLLOW*]  [*DUPlicateS*]  [*FOLLOW*]  [*FOLLOW*]
+clients3.google.com
+connectivitycheck.gstatic.com
+#                                                                       ##########
+##(Mozilla)FireFox                                                      [*FOLLOW*]
+##When launching Firefox, it will ping to the domain:                   [*FOLLOW*]
+##detectportal.firefox.com to detect if Firefox is in a captive portal, [*FOLLOW*]
+##such as public wifi or a wifi network,                                [*FOLLOW*]
+##where you need to agree before getting access to the internet.        [*FOLLOW*]
+##https://www.reddit.com/r/privacytoolsIO/comments/6j22nd/disable_firefox_detect_captive_portal_in/
+detectportal.firefox.com
+#                                                                       ##########
+##Windows/Microsoft [*FOLLOW*] [*DUPlicateS*] [*FOLLOW*] [*DUPlicateS*] [*FOLLOW*]
+# ( Microsoft Windows, Office, Skype, use this to verify connectivity ) [*FOLLOW*]
+msftncsi.com
+www.msftncsi.com
+ipv6.msftncsi.com
+#                                                                       ##########
+##iOS/Apple                                                             [I_DONT_USE_IT]
+##(note that this does not cover all domains used older iOS versions)   [I_DONT_USE_IT]
+# captive.apple.com                                                     [I_DONT_USE_IT]
+# gsp1.apple.com                                                        [I_DONT_USE_IT]
+# www.apple.com                                                         [I_DONT_USE_IT]
+# www.appleiphonecell.com                                               [I_DONT_USE_IT]
+
+##Grand Theft Auto V Online PC                                          [*DUPlicateS*] 
+##Since March blocking Rockstar telemetry seems to crash GTAOnline.     [I_DONT_USE_IT]
+##Unblocking the domain fixed crashing for people at GTA Forums:        [*DUPlicateS*]
+##https://gtaforums.com/topic/907162-crashing-after-new-updates/        [I_DONT_USE_IT]
+# prod.telemetry.ros.rockstargames.com                                  [*DUPlicateS*]
+
+##Chevrolet                                                             [I_DONT_USE_IT]
+##Couldn't browse inventory w/o whitelisting                            [I_DONT_USE_IT]
+# chevrolet.com                                                         [I_DONT_USE_IT]
+
+##20190404                                                              ###############
+##Epic Games Store                                                      [I_DONT_USE_IT]
+##The tracking domain is required to make a purchase on the website,    [I_DONT_USE_IT]
+##otherwise the order modal will appear to be loading forever.          [I_DONT_USE_IT]
+# tracking.epicgames.com                                                [I_DONT_USE_IT]
+
+
+# -------------------- 
+##and_in_the_COMMENTS:
+# --------------------
+#
+##https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/21:                                                                                                                  [*ON_HOLD*]
+##(from https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints):                                                                                                     [*ON_HOLD*]
+##This endpoint is used for Windows Defender when Cloud-based Protection is enabled. If you turn off traffic for this endpoint, the device will not use Cloud-based Protection.         [*ON_HOLD*]
+# wdcp.microsoft.com                                                                                                                                                                    [*ON_HOLD*]
+##(from https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-network-connections-windows-defender-antivirus):                       [*ON_HOLD*]
+##Used by Windows Defender Antivirus to provide cloud-delivered protection                                                                                                              [*ON_HOLD*]
+# wdcpalt.microsoft.com                                                                                                                                                                 [*ON_HOLD*]
+##(from https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1803-non-enterprise-editions 1 + https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints): [*ON_HOLD*]
+##This endpoint is used for content regulation. If you turn off traffic for this endpoint, the Windows Update Agent will be unable to contact the endpoint...                           [*ON_HOLD*]
+##...and fallback behavior will be used. This may result in content being either incorrectly downloaded or not downloaded at all.                                                       [*ON_HOLD*]
+# tsfe.trafficshaping.dsp.mp.microsoft.com                                                                                                                                              [*ON_HOLD*]
+# -------------------------------------------------------------------------------------
+##20190129                                                              [I_DONT_USE_IT]
+##Roku - ETWN App                                                       [I_DONT_USE_IT]
+##Symptom: Episode thumbnails were not loading when blocked.            [I_DONT_USE_IT]
+# f1.media.brightcove.com                                               [I_DONT_USE_IT]
+##iOS - Ubiquiti WifiMan                                                [I_DONT_USE_IT]
+##Symptom: Red warning stating ip-api.com 5 cannot be reached.          [I_DONT_USE_IT]
+# pro.ip-api.com                                                        [I_DONT_USE_IT]
+# reports.crashlytics.com                                               [I_DONT_USE_IT]
+#
+##20190207                                                              [I_DONT_USE_IT]
+##get CNN videos to load using data.cnn.com :                           [I_DONT_USE_IT]
+# www.cnn.com                                                           [I_DONT_USE_IT]
+# cnn.com                                                               [I_DONT_USE_IT]
+# cdn.cnn.com                                                           [I_DONT_USE_IT]
+# data.cnn.com                                                          [I_DONT_USE_IT]
+##2018Aug.                                                              [I_DONT_USE_IT]
+##Images won't load in the cnn ios app without whitelisting             [I_DONT_USE_IT]
+# dynaimage.cdn.turner.com                                              [I_DONT_USE_IT]
+#
+##20190312                                                              [I_DONT_USE_IT]
+##Facebook on iOS needs b-graph.facebook.com whitelisted,               [I_DONT_USE_IT]
+##in order to login to the app. (Edit post to add this entry).          [I_DONT_USE_IT]
+# b-graph.facebook.com                                                  [I_DONT_USE_IT]
+# -------------------------------------------------------------------------------------
+
+
+
+##=====================================================================================
+##(Jan.)2019 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus
+##=====================================================================================
+##Dutch (Netherlands) websites whitelisting                                        [NL]
+##OLD https://discourse.pi-hole.net/t/dutch-netherlands-websites-whitelisting/2259 [NL]
+##NEW https://github.com/Beverdam/whitelist-Nederland/blob/master/domains/whitelist.txt
+##=====================================================================================
+##(Jan.)2019 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus
+##=====================================================================================
+#
+# ==============
+# *T*E*S*T* 1st:
+# ==============
+#
+# bol.com
+www.bol.com
+# s.s-bol.com
+# swa.bol.com
+# weblog.bol.com
+# bltg.s-bol.com
+www.marktplaats.nl
+# s.marktplaats.com
+# p.marktplaats.net
+# aanbieding.marktplaats.nl
+# aanbieding.marktplaats.com
+www.nu.nl
+# media.nu.nl
+account.sanomaservices.nl
+fonts.googleapis.com
+www.nos.nl
+# nos.nl
+# www.ah.nl
+# static.ah.nl
+# cookies.nos.nl
+# atconnect.npo.nl
+# static.ahold.com
+####AD.NL --got fucked by RegEx list
+www.ad.nl
+####AD.NL --video's fix (o.a. AD.nl)
+player.ooyala.com
+####AD.NL ^-fix-^
+# www.detelegraaf.nl
+www.telegraaf.nl
+www.google.nl
+# consent.google.nl
+# id.google.nl
+www.startpagina.nl
+# static.startpagina.nl
+www.buienradar.nl
+# static.buienradar.nl
+api.buienradar.nl
+# cookieservice.rtl.nl
+# forecast.buienradar.nl
+# cookies.buienradar.nl
+www.buienalarm.nl
+www.npo.nl
+www.npostart.nl
+# ccm.npostart.nl
+# www-assets.npo.nl
+# assets.npo-data.nl
+www.anwb.nl
+# libs.static.anwb.nl
+# ugc.anwb.nl
+# api.anwb.nl
+www.funda.nl
+# assets.fstatic.nl
+# www.funda.nl.kpnis.nl
+# status.funda.nl
+# www.wehkamp.nl
+# resources.wehkamp.nl
+# images.wehkamp.nl
+www.rtlnieuws.nl
+# cookieservice.rtl.nl
+# cdn-rtl.primed.io
+# cookies.rtlnieuws.nl
+# i.rtl.nl
+www.mediamarkt.nl
+# jscdn.redblue.de
+# csscdn.redblue.de
+# picscdn.redblue.de
+# css.redblue.de
+www.coolblue.nl
+# image.coolblue.nl
+# assets.coolblue.nl
+www.avrotros.nl
+# cookies.avrotros.nl
+# ccm.npo.nl
+www.beslist.nl
+# cdn.beslist.net
+# www.devolkskrant.nl
+www.volkskrant.nl
+www.tweakers.net
+# tweakers.net
+# tweakimg.net
+www.bnnvara.nl
+# bnnvara.nl
+# cdn.bnnvara.nl
+# npoplayer.omroep.nl
+# www.nrc.nl
+# images.nrc.nl
+www.rtl.nl
+# cookieservice.rtl.nl
+# cookies.rtl.nl
+www.rtlxl.nl
+# static.rtl.nl
+# images.rtl.nl
+# screenshots.rtl.nl
+# rtlnlscreenshots.rtl.nl
+# zalando.nl
+# www.zalando.nl
+# dumpert.nl
+# kudtkoekiewet.nl
+www.dumpert.nl
+# media.dumpert.nl
+# smulweb.nl
+# www.smulweb.nl
+# images.smulweb.nl
+# kieskeurig.nl
+www.kieskeurig.nl
+# images.kieskeurig.nl
+# api.reshift.nl
+# media.kieskeurig.nl
+# linda.nl
+# www.lindanieuws.nl
+# reclamefolder.nl
+www.reclamefolder.nl
+# npmcdn.com
+# resizer.reclamefolder.org
+# media.reclamefolder.nl
+# maps.reclamefolder.nl
+www.weeronline.nl
+# storage.weeronline.cloud
+# nieuws.weeronline.nl
+# img.weeronline.cloud
+# www.viva.nl
+# media.viva.nl
+# assets.viva.nl
+# bin.snmmd.nl
+www.trouw.nl
+# www.hetparool.nl
+www.parool.nl
+# caps.parool.nl
+www.metro.nl
+www.tvgids.nl
+# tvgidsassets.nl
+# beta.tvgidsassets.nl
+# degelderlander.nl
+# www.degelderlander.nl
+# www.gelderlander.nl
+# www.gezondheidsnet.nl
+# www.bd.nl
+# www.vrouw.nl
+# vrouw.nl
+www.ntr.nl
+# ccm.npo.nl
+# cosmopolitan.nl
+# www.cosmopolitan.com
+www.geenstijl.nl
+# autoweek.nl
+www.autoweek.nl
+# media.autoweek.nl
+shownieuws.nl
+# libelle.nl
+# www.libelle.nl
+# media.libelle.nl
+www.powned.nl
+# powned.nl
+# www.powned.tv
+# telesport.nl
+www.telesport.nl
+# login.libelle.nl
+# cookiesv2.publiekeomroep.nl
+hartvannederland.nl
+# npozapp.nl
+www.zapp.nl
+# assets-www.zapp.nl
+# images.poms.omroep.nl
+# mms.libelle.nl
+# vtwonen.nl
+# www.vtwonen.nl
+# cdn.vtwonen.nl
+# static.vtwonen.nl
+# kroncrv.nl
+# www.kroncrv.nl
+www.kro-ncrv.nl
+# actie.kro-ncrv.nl
+# admin.kro-ncrv.nl
+weerplaza.nl
+# www.weerplaza.nl
+# nieuw.weerplaza.nl
+# destentor.nl
+# www.destentor.nl
+# accounts.destentor.nl
+www.shownieuws.nl
+# www.bndestem.nl
+# plusonline.nl
+# www.plusonline.nl
+# www.topics.nl
+# login.shownieuws.nl
+# eindhovensdagblad.nl
+# www.eindhovensdagblad.nl
+www.hartvannederland.nl
+# cookie.hartvannederland.nl
+# elle.nl
+# www.elle.nl
+# www.elle.com
+# login.hartvannederland.nl
+# vi.nl
+www.vi.nl
+# eo.nl
+# www.eo.nl
+# portal.eo.nl
+# start-player.npo.nl
+# www.oudersvannu.nl
+# media.oudersvannu.nl
+www.abnamro.nl
+# www.asnbank.nl
+# bunq.nl
+# www.bunq.com
+# ing.nl
+www.ing.nl
+# knab.nl
+# www.knab.nl
+# moneyou.nl
+# www.moneyou.nl
+# rabobank.nl
+www.rabobank.nl
+# regiobank.nl
+# www.regiobank.nl
+# sns.nl
+www.snsbank.nl
+# triodos.nl
+# www.triodos.nl
+# video.triodos.com
+# www.vanlanschot.nl
+# handelsbanken.nl
+# www.handelsbanken.nl
+
+
+
+# ============== ============== ============== ==============
+##(Dutch)CUSTOMS -------------- 2019 *TESTED!* --------------
+# ============== ============== ============== ==============
+
+##Social fixes (ie. Instagram, Twitter, etc.) --mostly needed to allow redirects for instance...                                [*FOLLOW*]
+graph.facebook.com
+graph.instagram.com
+analytics.twitter.com
+##20190211                                                                                                                      ##########
+##Just in case anyone else ran into Twitter embeds not working in Google News for iOS, whitelisting cdn.syndication.twimg.com   [*FOLLOW*]
+# cdn.syndication.twimg.com                                                                                                     [*FOLLOW*]
+
+##-------------- \/----------/\ \/----------/\ --------------
+
+##Domains used by/FOR Plex [*AND_OTHERS*] [*KODi*] [*FOLLOW*]
 gravatar.com
 thetvdb.com
 themoviedb.com
 
-##mo'Kodi
+##MO'kodi /XBMC /XBMP                     [*KODi*] [*FOLLOW*]
 ##https://github.com/newt-sc/a4kScrapers/blob/master/providers/a4kScrapers/en/torrent/lib/trackers.json
 ##https://github.com/reddit-reaper/ScraperPackages/blob/master/A4KScrapers/providers/a4kScrapers/en/torrent/lib/trackers.json
-##pihole -w bitlordsearch.com eztv.io thekat.info 1337x.to www.limetorrents.info www.magnetdl.com movcr.cc nyaa.si pirateproxy.bet www.torrentdownloads.info torrentz2.eu yts.am zooqle.com
+##2090417                                                                                               ##########
+##https://github.com/a4k-openproject/a4kScrapers/blob/master/providerModules/a4kScrapers/trackers.json  [*FOLLOW*]
+##PiHOLE -W bitlordsearch.com eztv.io eztv.re eztv.ag eztv.it eztv.ch eztv.unblocked.llc eztv.unblocker.cc kickass2.biz kat.how kat.li kickass.cm kickass2.st kat.sx thekat.info kickass.unblocked.llc 1337x.to 1337x.st x1337x.ws x1337x.eu x1337x.se 1337x.is 1337x.unblocked.llc 1337x.unblocker.cc 1337x.unblockall.org www.limetorrents.info www.limetorrents.asia www.limetorrents.zone www.magnetdl.com movcr.tv movcr.cc nyaa.si thepiratebay.org thepiratebay3.org pirateproxy.bet tpb.ukpass.co thepiratebay.vip theproxybay.net thepiratebay.myunblock.com ikwilthepiratebay.org piratebayblocked.com thepiratebay.unblockthe.net http://tpb.filepit.to tpbproxy.online cruzing.xyz thepiratebay.unblocker.cc thepiratebay.unblockall.org showrss.info www.skytorrents.lol solidtorrents.net torrentapi.org www.torrentdownloads.me www.torrentdownloads.info torrentz2.eu torrentz2.is torrentz2.cc torrentz2.tv yts.am yts.pm yts.gs www4.yify.is yts.unblocked.vet yts.unblocked.krd ytss.unblocked.is zooqle.com zooqle.me zooqle.unblocked.win zooqle.nocensor.xyz zooqle.unblocked.llc zooqle.unblocked.krd zooqle.p4y.info
+# -----------------
+##bitlord##
 bitlordsearch.com
+##eztv##
 eztv.io
+eztv.re
+eztv.ag
+eztv.it
+eztv.ch
+eztv.unblocked.llc
+eztv.unblocker.cc
+##kickass##
+kickass2.biz
+kat.how
+kat.li
+kickass.cm
+kickass2.st
+kat.sx
 thekat.info
+kickass.unblocked.llc
+##leet##
 1337x.to
+1337x.st
+x1337x.ws
+x1337x.eu
+x1337x.se
+1337x.is
+1337x.unblocked.llc
+1337x.unblocker.cc
+1337x.unblockall.org
+##lime##
 www.limetorrents.info
+www.limetorrents.asia
+www.limetorrents.zone
+##magnetdl##
 www.magnetdl.com
+##movcr##
+movcr.tv
 movcr.cc
+##nyaa##
 nyaa.si
-pirateproxy.bet
+##piratebay##
 thepiratebay.org
+thepiratebay3.org
+pirateproxy.bet
+tpb.ukpass.co
+thepiratebay.vip
+theproxybay.net
+thepiratebay.myunblock.com
+ikwilthepiratebay.org
+piratebayblocked.com
+thepiratebay.unblockthe.net
+http://tpb.filepit.to
+tpbproxy.online
+cruzing.xyz
+thepiratebay.unblocker.cc
+thepiratebay.unblockall.org
+##showrss##
+showrss.info
+##skytorrents##
+www.skytorrents.lol
+##solidtorrents##
+solidtorrents.net
+##torrentapi##
+torrentapi.org
+##torrentdownloads#
+www.torrentdownloads.me
 www.torrentdownloads.info
+##torrentz2#
 torrentz2.eu
+torrentz2.is
+torrentz2.cc
+torrentz2.tv
+##yts##
 yts.am
+yts.pm
+yts.gs
+www4.yify.is
+yts.unblocked.vet
+yts.unblocked.krd
+ytss.unblocked.is
+##zooqle##
 zooqle.com
+zooqle.me
+zooqle.unblocked.win
+zooqle.nocensor.xyz
+zooqle.unblocked.llc
+zooqle.unblocked.krd
+zooqle.p4y.info
 # -----------------
 api.real-debrid.com
 api.themoviedb.org
@@ -424,132 +966,36 @@ www.omdbapi.com
 # -----------------
 image.tmdb.org
 # -----------------
+addic7ed.com
 opensubtitles.org
+subscene.com
 # -----------------
 
+##-------------- \/----------/\ \/----------/\ --------------
 
-##Sonarr [I_DONT_USE_IT]
-# services.sonarr.tv
-# skyhook.sonarr.tv
-# download.sonarr.tv
-# apt.sonarr.tv
-# forums.sonarr.tv
+##FiX Google(Chrome) picture search not showing picas... [*FOLLOW*]
+www.gstatic.com
 
+##-------------- \/----------/\ \/----------/\ --------------
 
-##Placehold.it [*FOLLOW*] [*ON_HOLD*]
-##(Image placeholders often used during web design. Not sure why this is even blocked in the first place.)
-# placehold.it
-# placeholdit.imgix.net
+##Chromecast (CAST with Google Chrome)
+#clients1.google.com [*NEW*]
+#clients2.google.com [*NOPE*]
+#clients3.google.com [*DUPlicateS*]
+#clients4.google.com [*NOPE*]
+#PROBABLY NEEDED ??? [*PROBABLY*]
+#redirector.gvt1.com [*PROBABLY*]
+#clients5.google.com [UKNOWN --SEE: https://github.com/anudeepND/whitelist/blob/master/domains/whitelist.txt]
+#clients6.google.com [UKNOWN --SEE: https://github.com/anudeepND/whitelist/blob/master/domains/whitelist.txt]
 
-##Dropbox [*FOLLOW*]
-##as described here: https://www.reddit.com/r/pihole/comments/6fer0z/for_anyone_who_cant_seem_to_download_dropbox_files/
-dl.dropboxusercontent.com
-ns1.dropbox.com
-ns2.dropbox.com
+##-------------- \/----------/\ \/----------/\ --------------
 
-##Fox News [*ON_HOLD*]
-##as described here: https://discourse.pi-hole.net/t/cant-watch-fox-news-live/1563/3?u=jacob.salmela
-# widget-cdn.rpxnow.com
+##FiX WindowsUpdate (W10)
+download.windowsupdate.com
+au.download.windowsupdate.com
+ctldl.windowsupdate.com
 
-##Images on Marketwatch.com [I_DONT_USE_IT]
-# s.marketwatch.com
-
-##Apple Music [I_DONT_USE_IT]
-# itunes.apple.com
-
-##GoDaddy webmail buttons [I_DONT_USE_IT]
-# imagesak.secureserver.net
-
-##Google Chrome (to update on ubuntu) [*ON_HOLD*]
-# dl.google.com
-
-##Apple ID [I_DONT_USE_IT]
-# appleid.apple.com
-
-##WatchESPN [*DUPlicateS*] [I_DONT_USE_IT]
-##as described here: https://www.reddit.com/r/pihole/comments/4p1cdh/watchespn/d4kaz07/
-# fpdownload.adobe.com
-# entitlement.auth.adobe.com
-# livepassdl.conviva.com
-
-##NVIDIA GeForce Experience [*DUPlicateS*] [NViDiA GeForce]
-##GFE requires this (https://www.reddit.com/r/pihole/comments/7n0es7/geforce_experience_features_blocked/) to download driver updates (or events.gfe.nvidia.com 37, but that is also used for telemetry).
-# gfwsl.geforce.com
-
-##Videos not playing in times.com and nydailynews.com [I_DONT_USE_IT]
-# elivery.vidible.tv
-# img.vidible.tv
-# videos.vidible.tv
-# edge.api.brightcove.com
-# cdn.vidible.tv
-
-##Bing Maps Platform [*ON_HOLD*]
-##as described here: https://github.com/anudeepND/whitelist/issues/18
-# dev.virtualearth.net
-# ecn.dev.virtualearth.net
-# t0.ssl.ak.dynamic.tiles.virtualearth.net
-# t0.ssl.ak.tiles.virtualearth.net
-
-##Google Play Android updates [*DUPlicateS*] [*FOLLOW*]
-android.clients.google.com
-
-##Moto phones OS updates [I_DONT_USE_IT]
-# appspot-preview.l.google.com
-
-##Captive-portal tests [*FOLLOW*]
-##These domains are checked by the operating systems when connecting via wifi, and if they don’t get the response they expect,
-# they may try to open a wifi login page or similar as they believe they are located behind a captive portal.
-#
-##Android/Chrome
-connectivitycheck.android.com
-android.clients.google.com
-clients3.google.com
-connectivitycheck.gstatic.com
-#
-##(Mozilla)FireFox
-##When launching Firefox, it will ping to the domain detectportal.firefox.com to detect if Firefox is in a captive portal,
-## such as public wifi or a wifi network where you need to agree before getting access to the internet.
-## nfo: https://www.reddit.com/r/privacytoolsIO/comments/6j22nd/disable_firefox_detect_captive_portal_in/
-detectportal.firefox.com
-#
-##Windows/Microsoft [I_DONT_USE_IT] [*FOLLOW*]
-msftncsi.com
-www.msftncsi.com
-ipv6.msftncsi.com
-#
-##iOS/Apple [I_DONT_USE_IT] [*ON_HOLD*]
-##(note that this does not cover all domains used older iOS versions)
-# captive.apple.com
-# gsp1.apple.com
-# www.apple.com
-# www.appleiphonecell.com
-
-##Grand Theft Auto V Online PC [*DUPlicateS*] [I_DONT_USE_IT]
-##Since March blocking Rockstar telemetry seems to crash GTAOnline.
-##Unblocking the domain fixed crashing for people at GTA Forums: https://gtaforums.com/topic/907162-crashing-after-new-updates/
-# prod.telemetry.ros.rockstargames.com
-
-##Chevrolet [I_DONT_USE_IT]
-##Couldn’t browse inventory w/o whitelisting
-# chevrolet.com
-
-##https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212/21:              [*ON_HOLD*]
-##(from https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints): [*ON_HOLD*]
-# wdcp.microsoft.com
-##(from https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-network-connections-windows-defender-antivirus):   [*ON_HOLD*]
-# wdcpalt.microsoft.com
-##(from https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-1803-non-enterprise-editions 1 + https://docs.microsoft.com/en-us/windows/privacy/manage-windows-endpoints): [*ON_HOLD*]
-# tsfe.trafficshaping.dsp.mp.microsoft.com
-
-##=======================================================================================
-##2019 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW '19
-##=======================================================================================
-##Dutch (Netherlands) websites whitelisting
-##[OLD] https://discourse.pi-hole.net/t/dutch-netherlands-websites-whitelisting/2259
-##[MEW] https://github.com/Beverdam/whitelist-Nederland/blob/master/domains/whitelist.txt
-##=======================================================================================
-##2019 NEW additions toevoegingen Ergänzungen ajouts adiciones aggiunte emendatus NEW '19
-##=======================================================================================
+##-------------- \/----------/\ \/----------/\ --------------
 
 ##Banking/betalingen
 # ------------------
@@ -558,6 +1004,8 @@ live.adyen.com
 ##Financial (o.a. tbv reserveringen/ticketservices/schouwburg etc)
 # ----------------------------------------------------------------
 secure.ogone.com
+
+##-------------- \/----------/\ \/----------/\ --------------
 
 ##tbv. (online)Tijschriften/Nieuwssites (account)login
 # ----------------------------------------------------
@@ -573,6 +1021,14 @@ spele.nl
 # ----------------------------------------------------------
 cmp.faktor.mgr.consensu.org
 
+##-------------- \/----------/\ \/----------/\ --------------
+
+##media/videos @ Nieuws/Kranten etc.           (oa. Tubantia)
+secure-cf-c.ooyala.com
+#player.ooyala.com                             [*DUPlicateS*]
+
+##-------------- \/----------/\ \/----------/\ --------------
+
 ##Anti-ADDblocker_SiTES
 # ---------------------
 adaway.org
@@ -582,6 +1038,8 @@ openphish.com
 ransomwaretracker.abuse.ch
 www.malwaredomainlist.com
 www.youronlinechoices.com
+
+##-------------- \/----------/\ \/----------/\ --------------
 
 ##Sites/Apps-2-FiX
 # ----------------
@@ -600,238 +1058,10 @@ prod.imgur.map.fastlylb.net
 # OPENSOURCE dingen :
 mirror.cedia.org.ec
 
+##-------------- \/----------/\ \/----------/\ --------------
 
-# ==============
-# *T*E*S*T* 1st:
-# ==============
-# bol.com
-# www.bol.com
-# s.s-bol.com
-# swa.bol.com
-# weblog.bol.com
-# bltg.s-bol.com
-# www.marktplaats.nl
-# s.marktplaats.com
-# p.marktplaats.net
-# aanbieding.marktplaats.nl
-# aanbieding.marktplaats.com
-# www.nu.nl
-# media.nu.nl
-# account.sanomaservices.nl
-# www.nu.nl
-# fonts.googleapis.com
-# media.nu.nl
-# account.sanomaservices.nl
-# www.nos.nl
-# nos.nl
-# www.ah.nl
-# static.ah.nl
-# cookies.nos.nl
-# atconnect.npo.nl
-# static.ahold.com
-####AD.NL --got fucked by RegEx list
-www.ad.nl
-####AD.NL --video's fix (o.a. AD.nl)
-player.ooyala.com
-# www.detelegraaf.nl
-# www.telegraaf.nl
-# www.google.nl
-# consent.google.nl
-# id.google.nl
-# www.startpagina.nl
-# static.startpagina.nl
-# www.buienradar.nl
-# static.buienradar.nl
-# api.buienradar.nl
-# cookieservice.rtl.nl
-# forecast.buienradar.nl
-# cookies.buienradar.nl
-# www.buienalarm.nl
-# www.npo.nl
-# www.npostart.nl
-# ccm.npostart.nl
-# www-assets.npo.nl
-# assets.npo-data.nl
-# www.anwb.nl
-# libs.static.anwb.nl
-# ugc.anwb.nl
-# api.anwb.nl
-# www.funda.nl
-# assets.fstatic.nl
-# www.funda.nl.kpnis.nl
-# status.funda.nl
-# www.wehkamp.nl
-# resources.wehkamp.nl
-# images.wehkamp.nl
-# www.rtlnieuws.nl
-# cookieservice.rtl.nl
-# cdn-rtl.primed.io
-# cookies.rtlnieuws.nl
-# i.rtl.nl
-# www.mediamarkt.nl
-# jscdn.redblue.de
-# csscdn.redblue.de
-# picscdn.redblue.de
-# css.redblue.de
-# www.coolblue.nl
-# image.coolblue.nl
-# assets.coolblue.nl
-# www.avrotros.nl
-# cookies.avrotros.nl
-# ccm.npo.nl
-# www.beslist.nl
-# cdn.beslist.net
-# www.devolkskrant.nl
-# www.volkskrant.nl
-# www.tweakers.net
-# tweakers.net
-# tweakimg.net
-# www.bnnvara.nl
-# bnnvara.nl
-# cdn.bnnvara.nl
-# npoplayer.omroep.nl
-# www.nrc.nl
-# images.nrc.nl
-# www.rtl.nl
-# cookieservice.rtl.nl
-# cookies.rtl.nl
-# www.rtlxl.nl
-# static.rtl.nl
-# images.rtl.nl
-# screenshots.rtl.nl
-# rtlnlscreenshots.rtl.nl
-# zalando.nl
-# www.zalando.nl
-# dumpert.nl
-# kudtkoekiewet.nl
-# www.dumpert.nl
-# media.dumpert.nl
-# smulweb.nl
-# www.smulweb.nl
-# images.smulweb.nl
-# kieskeurig.nl
-# www.kieskeurig.nl
-# images.kieskeurig.nl
-# api.reshift.nl
-# media.kieskeurig.nl
-# linda.nl
-# www.lindanieuws.nl
-# account.sanomaservices.nl
-# reclamefolder.nl
-# www.reclamefolder.nl
-# npmcdn.com
-# resizer.reclamefolder.org
-# media.reclamefolder.nl
-# maps.reclamefolder.nl
-# www.weeronline.nl
-# storage.weeronline.cloud
-# nieuws.weeronline.nl
-# img.weeronline.cloud
-# www.viva.nl
-# media.viva.nl
-# assets.viva.nl
-# bin.snmmd.nl
-# www.trouw.nl
-# www.hetparool.nl
-# www.parool.nl
-# caps.parool.nl
-# www.metro.nl
-# www.tvgids.nl
-# tvgidsassets.nl
-# beta.tvgidsassets.nl
-# degelderlander.nl
-# www.degelderlander.nl
-# www.gelderlander.nl
-# www.gezondheidsnet.nl
-# www.bd.nl
-# www.vrouw.nl
-# vrouw.nl
-# www.ntr.nl
-# ccm.npo.nl
-# cosmopolitan.nl
-# www.cosmopolitan.com
-# www.geenstijl.nl
-# autoweek.nl
-# www.autoweek.nl
-# media.autoweek.nl
-# shownieuws.nl
-# libelle.nl
-# www.libelle.nl
-# media.libelle.nl
-# www.powned.nl
-# powned.nl
-# www.powned.tv
-# telesport.nl
-# www.telesport.nl
-# www.telegraaf.nl
-# login.libelle.nl
-# cookiesv2.publiekeomroep.nl
-# hartvannederland.nl
-# npozapp.nl
-# www.zapp.nl
-# assets-www.zapp.nl
-# images.poms.omroep.nl
-# mms.libelle.nl
-# vtwonen.nl
-# www.vtwonen.nl
-# cdn.vtwonen.nl
-# static.vtwonen.nl
-# kroncrv.nl
-# www.kroncrv.nl
-# www.kro-ncrv.nl
-# actie.kro-ncrv.nl
-# admin.kro-ncrv.nl
-# weerplaza.nl
-# www.weerplaza.nl
-# nieuw.weerplaza.nl
-# destentor.nl
-# www.destentor.nl
-# accounts.destentor.nl
-# www.shownieuws.nl
-# www.bndestem.nl
-# plusonline.nl
-# www.plusonline.nl
-# www.topics.nl
-# login.shownieuws.nl
-# eindhovensdagblad.nl
-# www.eindhovensdagblad.nl
-# www.hartvannederland.nl
-# cookie.hartvannederland.nl
-# elle.nl
-# www.elle.nl
-# www.elle.com
-# login.hartvannederland.nl
-# vi.nl
-# www.vi.nl
-# eo.nl
-# www.eo.nl
-# portal.eo.nl
-# start-player.npo.nl
-# www.oudersvannu.nl
-# media.oudersvannu.nl
-# www.abnamro.nl
-# www.asnbank.nl
-# bunq.nl
-# www.bunq.com
-# ing.nl
-# www.ing.nl
-# knab.nl
-# www.knab.nl
-# moneyou.nl
-# www.moneyou.nl
-# rabobank.nl
-# www.rabobank.nl
-# regiobank.nl
-# www.regiobank.nl
-# sns.nl
-# www.snsbank.nl
-# triodos.nl
-# www.triodos.nl
-# video.triodos.com
-# www.vanlanschot.nl
-# handelsbanken.nl
-# www.handelsbanken.nl
-# ============== ============== ==============
-# FalsePositives :
+##FalsePositives :
 fhm.nl
 www.fhm.nl
+
+##-------------- \/----------/\ \/----------/\ --------------
