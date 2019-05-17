@@ -641,7 +641,7 @@ www.nos.nl
 ####AD.NL --got fucked by RegEx list
 www.ad.nl
 ####AD.NL --video's fix (o.a. AD.nl)
-player.ooyala.com
+# player.ooyala.com   [*DUPlicateS*]
 ####AD.NL ^-fix-^
 # www.detelegraaf.nl
 www.telegraaf.nl
@@ -774,7 +774,8 @@ www.powned.nl
 www.telesport.nl
 # login.libelle.nl
 # cookiesv2.publiekeomroep.nl
-hartvannederland.nl
+# hartvannederland.nl
+www.hartvannederland.nl
 # npozapp.nl
 www.zapp.nl
 # assets-www.zapp.nl
@@ -860,17 +861,17 @@ analytics.twitter.com
 gravatar.com
 thetvdb.com
 themoviedb.com
-
-##MO'kodi /XBMC /XBMP                     [*KODi*] [*FOLLOW*]
+# ------------------ #
+##MO' Kodi /XBMC /XBMP                    [*KODi*] [*FOLLOW*]
 ##https://github.com/newt-sc/a4kScrapers/blob/master/providers/a4kScrapers/en/torrent/lib/trackers.json
 ##https://github.com/reddit-reaper/ScraperPackages/blob/master/A4KScrapers/providers/a4kScrapers/en/torrent/lib/trackers.json
 ##2090417                                                                                               ##########
 ##https://github.com/a4k-openproject/a4kScrapers/blob/master/providerModules/a4kScrapers/trackers.json  [*FOLLOW*]
 ##PiHOLE -W bitlordsearch.com eztv.io eztv.re eztv.ag eztv.it eztv.ch eztv.unblocked.llc eztv.unblocker.cc kickass2.biz kat.how kat.li kickass.cm kickass2.st kat.sx thekat.info kickass.unblocked.llc 1337x.to 1337x.st x1337x.ws x1337x.eu x1337x.se 1337x.is 1337x.unblocked.llc 1337x.unblocker.cc 1337x.unblockall.org www.limetorrents.info www.limetorrents.asia www.limetorrents.zone www.magnetdl.com movcr.tv movcr.cc nyaa.si thepiratebay.org thepiratebay3.org pirateproxy.bet tpb.ukpass.co thepiratebay.vip theproxybay.net thepiratebay.myunblock.com ikwilthepiratebay.org piratebayblocked.com thepiratebay.unblockthe.net http://tpb.filepit.to tpbproxy.online cruzing.xyz thepiratebay.unblocker.cc thepiratebay.unblockall.org showrss.info www.skytorrents.lol solidtorrents.net torrentapi.org www.torrentdownloads.me www.torrentdownloads.info torrentz2.eu torrentz2.is torrentz2.cc torrentz2.tv yts.am yts.pm yts.gs www4.yify.is yts.unblocked.vet yts.unblocked.krd ytss.unblocked.is zooqle.com zooqle.me zooqle.unblocked.win zooqle.nocensor.xyz zooqle.unblocked.llc zooqle.unblocked.krd zooqle.p4y.info
-# -----------------
-##bitlord##
+# ------------------ #
+##bitlord#############
 bitlordsearch.com
-##eztv##
+##eztv################
 eztv.io
 eztv.re
 eztv.ag
@@ -878,7 +879,7 @@ eztv.it
 eztv.ch
 eztv.unblocked.llc
 eztv.unblocker.cc
-##kickass##
+##kickass#############
 kickass2.biz
 kat.how
 kat.li
@@ -887,7 +888,7 @@ kickass2.st
 kat.sx
 thekat.info
 kickass.unblocked.llc
-##leet##
+##leet################
 1337x.to
 1337x.st
 x1337x.ws
@@ -897,18 +898,18 @@ x1337x.se
 1337x.unblocked.llc
 1337x.unblocker.cc
 1337x.unblockall.org
-##lime##
+##lime################
 www.limetorrents.info
 www.limetorrents.asia
 www.limetorrents.zone
-##magnetdl##
+##magnetdl############
 www.magnetdl.com
-##movcr##
+##movcr###############
 movcr.tv
 movcr.cc
-##nyaa##
+##nyaa################
 nyaa.si
-##piratebay##
+##piratebay###########
 thepiratebay.org
 thepiratebay3.org
 pirateproxy.bet
@@ -924,23 +925,23 @@ tpbproxy.online
 cruzing.xyz
 thepiratebay.unblocker.cc
 thepiratebay.unblockall.org
-##showrss##
+##showrss#############
 showrss.info
-##skytorrents##
+##skytorrents#########
 www.skytorrents.lol
-##solidtorrents##
+##solidtorrents#######
 solidtorrents.net
-##torrentapi##
+##torrentapi##########
 torrentapi.org
-##torrentdownloads#
+##torrentdownloads####
 www.torrentdownloads.me
 www.torrentdownloads.info
-##torrentz2#
+##torrentz2###########
 torrentz2.eu
 torrentz2.is
 torrentz2.cc
 torrentz2.tv
-##yts##
+##yts#################
 yts.am
 yts.pm
 yts.gs
@@ -948,7 +949,7 @@ www4.yify.is
 yts.unblocked.vet
 yts.unblocked.krd
 ytss.unblocked.is
-##zooqle##
+##zooqle##############
 zooqle.com
 zooqle.me
 zooqle.unblocked.win
@@ -956,20 +957,20 @@ zooqle.nocensor.xyz
 zooqle.unblocked.llc
 zooqle.unblocked.krd
 zooqle.p4y.info
-# -----------------
+# ------------------ #
 api.real-debrid.com
 api.themoviedb.org
 api.thetvdb.com
 api.trakt.tv
 omdbapi.com
 www.omdbapi.com
-# -----------------
+# ------------------ #
 image.tmdb.org
-# -----------------
+# ------------------ #
 addic7ed.com
 opensubtitles.org
 subscene.com
-# -----------------
+# ------------------ #
 
 ##-------------- \/----------/\ \/----------/\ --------------
 
@@ -1025,7 +1026,7 @@ cmp.faktor.mgr.consensu.org
 
 ##media/videos @ Nieuws/Kranten etc.           (oa. Tubantia)
 secure-cf-c.ooyala.com
-#player.ooyala.com                             [*DUPlicateS*]
+player.ooyala.com
 
 ##-------------- \/----------/\ \/----------/\ --------------
 
@@ -1061,7 +1062,7 @@ mirror.cedia.org.ec
 ##-------------- \/----------/\ \/----------/\ --------------
 
 ##FalsePositives :
-fhm.nl
+# fhm.nl
 www.fhm.nl
 
 ##-------------- \/----------/\ \/----------/\ --------------
