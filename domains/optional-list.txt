@@ -763,7 +763,6 @@ www.geenstijl.nl
 # autoweek.nl
 www.autoweek.nl
 # media.autoweek.nl
-shownieuws.nl
 # libelle.nl
 # www.libelle.nl
 # media.libelle.nl
@@ -790,8 +789,8 @@ www.zapp.nl
 www.kro-ncrv.nl
 # actie.kro-ncrv.nl
 # admin.kro-ncrv.nl
-weerplaza.nl
-# www.weerplaza.nl
+# weerplaza.nl
+www.weerplaza.nl
 # nieuw.weerplaza.nl
 # destentor.nl
 # www.destentor.nl
@@ -995,6 +994,8 @@ www.gstatic.com
 download.windowsupdate.com
 au.download.windowsupdate.com
 ctldl.windowsupdate.com
+##Extra_FiX-4-Regex
+time.windows.com
 
 ##-------------- \/----------/\ \/----------/\ --------------
 
@@ -1042,22 +1043,24 @@ www.youronlinechoices.com
 
 ##-------------- \/----------/\ \/----------/\ --------------
 
-##Sites/Apps-2-FiX
-# ----------------
-# REDDIT :
-gateway.reddit.com
-# KEYBASE :
-api-0.core.keybaseapi.com
-mdserver-0.kbfs.keybaseapi.com
-mdserver-1.kbfs.keybaseapi.com
-# ANGRYIP :
+##Sites en Apps-2-FiX
+# -------------------
+# ANGRYIP           :
 angryip.org
-# IMGUR :
+# FiNG              :
+api.fing.io
+# IMGUR             :
 imgur.com
 m.imgur.com
 prod.imgur.map.fastlylb.net
+# KEYBASE           :
+api-0.core.keybaseapi.com
+mdserver-0.kbfs.keybaseapi.com
+mdserver-1.kbfs.keybaseapi.com
 # OPENSOURCE dingen :
 mirror.cedia.org.ec
+# REDDIT            :
+gateway.reddit.com
 
 ##-------------- \/----------/\ \/----------/\ --------------
 
